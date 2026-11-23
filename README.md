@@ -50,34 +50,85 @@ opens; in a route choice the last move pressed wins, and one the scene does not 
 The Dragon's Lair II trailer is drawn as one layer in a smaller picture (Sega CD 160x136, SNES 224x192): its many
 scrolling backgrounds one after another would be too much data for either console at full size.
 
-## Requirements
+## Building, step by step
 
-- Python 3.10 or newer with numpy and Pillow: `python -m pip install -r requirements.txt`
-- Sega CD: [vasm](http://sun.hasenbraten.de/vasm/) (`vasmm68k_mot`) in `tools/vasm/`, and a clone of
-  [megadev](https://github.com/drojaazu/megadev) in `tools/megadev/`
-  (`git clone https://github.com/drojaazu/megadev tools/megadev`).  The disc's boot code is our own
-  (`segacd/src/boot.s`, laid out as megadev's); only the region security code, which the console checks byte for
-  byte, is taken from megadev's `lib/security.c`.
-- SNES: [WLA-DX](https://github.com/vhelin/wla-dx) (`wla-65816`, `wla-spc700`, `wlalink`) in `tools/wla-dx/` or on
-  the PATH; for the CD-i sound, [ffmpeg](https://ffmpeg.org/download.html) in `tools/ffmpeg/` or on the PATH.
+The commands below are for Windows (PowerShell or Command Prompt). On Linux or macOS use `python3` and forward
+slashes; everything else is the same.
 
-No tool is included (their licences only allow their own archives to be passed on).
+### 1. Unpack the converter
 
-## Building
+Unzip `BD13-Converter.zip` to a folder on a drive with at least **25 GB free** (the Sega CD build needs that much
+while it runs; the SNES build 12 GB), for example `C:\BD13-Converter`. Open a terminal in that folder:
+
+```
+cd C:\BD13-Converter
+```
+
+All the commands below are run from there.
+
+### 2. Install Python
+
+Install [Python](https://www.python.org/downloads/) 3.10 or newer (on Windows, tick **Add python.exe to PATH**
+in the installer). Check it, then install the two libraries the scripts use (numpy and Pillow):
+
+```
+python --version
+python -m pip install -r requirements.txt
+```
+
+### 3. Put your disc images in one folder
+
+Make images of your own discs (`.bin` + `.cue`, as Redump has them; see [The discs](#the-discs)) and put them in
+one folder, for example `D:\discs\BrainDead 13`. Then check them:
+
+```
+python discs.py "D:\discs\BrainDead 13"
+```
+
+It reads each image, compares it with its Redump entry and says which disc it is. Both 3DO discs must pass; the
+CD-i disc is only used by the SNES build. The result is remembered (`discs_checked.json`), so the builds do not
+read the images twice.
+
+### 4. Get the tools
+
+No tool is included (their licences only allow their own archives to be passed on). Get only the ones for the
+port you want; `tools/` has a note for each.
+
+**For the Sega CD:**
+
+1. **vasm**, the 68000 assembler: from the [vasm page](http://sun.hasenbraten.de/vasm/) (Binaries) take the
+   Motorola syntax 68k build for your system (Windows: `vasmm68k_mot_Win64.zip`) and put `vasmm68k_mot.exe`
+   (`vasmm68k_mot` on Linux / macOS) in `tools\vasm\`. On Linux / macOS you can also build it from its source:
+   `make CPU=m68k SYNTAX=mot`.
+2. **megadev**: install [Git](https://git-scm.com/downloads), then
+   ```
+   git clone https://github.com/drojaazu/megadev tools/megadev
+   ```
+   (Or download it from GitHub as a ZIP and unpack it so that `tools\megadev\lib\security.c` exists.) The disc's
+   boot code is our own (`segacd/src/boot.s`, laid out as megadev's); only the region security code, which the
+   console checks byte for byte, is taken from megadev's `lib/security.c`.
+
+**For the SNES:**
+
+1. **WLA-DX**, the 65816 and SPC700 assembler: from [WLA-DX](https://github.com/vhelin/wla-dx) (its releases, or
+   built from its source) put `wla-65816`, `wla-spc700` and `wlalink` (`.exe` on Windows) in `tools\wla-dx\`, or
+   have them on the PATH (or set `BD13_WLA` to their folder).
+2. **ffmpeg**, only for the CD-i stereo sound: [ffmpeg](https://ffmpeg.org/download.html) (`ffmpeg.exe`) in
+   `tools\ffmpeg\`, or on the PATH (or set `BD13_FFMPEG`).
+
+The builds check for their tools first and stop with a message if one is missing.
+
+### 5. Build
+
+Give the folder from step 3 (or the `.cue` files one by one):
 
 ```
 python build_segacd.py "D:\discs\BrainDead 13"
 python build_snes.py "D:\discs\BrainDead 13"
 ```
 
-(a folder holding the disc images, or the `.cue` files one by one). Results:
-
-- `output/segacd/bd13.cue` + `bd13.bin`: load the `.cue` in an emulator or on a MiSTer, or burn it.
-- `output/snes/BrainDead13-MSU1.zip`: `bd13msu.sfc`, `bd13msu.msu` and `bd13msu-1.pcm` ... `bd13msu-402.pcm`
-  in a folder `bd13msu/`. Unzip it to your SD card; the files must stay together with these names. `--folder`
-  writes the folder instead of a zip.
-
-Both builds share their first step (the 3DO export), so the second one is quicker. Times on a recent PC:
+Each build takes hours; let it run. Both share their first step (the 3DO export), so the second one is quicker.
+Times on a recent PC:
 
 | Step | Sega CD | SNES |
 |---|---|---|
@@ -86,9 +137,25 @@ Both builds share their first step (the 3DO export), so the second one is quicke
 | disc / packing | 1 min | 2 min |
 | disk space while building | 25 GB | 12 GB |
 
-Each worker can use 2-3 GB of RAM; use `--workers` to match your memory. A build that stops (or is stopped) goes
-on from the step it was in when the same command is run again (`build_state.json`); `--redo STEP` does a step
-again.
+Options:
+
+- `--workers N`: conversions run side by side (Sega CD 3, SNES 4); each can use 2-3 GB of RAM, so with 8 GB of
+  RAM use `--workers 2`.
+- A build that stops (or that you stop with Ctrl+C) goes on from the step it was in when you run the same command
+  again (`build_state.json`). `--redo STEP` does a step again (Sega CD: `export`, `bitmaps`, `pack`, `disc`; SNES:
+  `export`, `cdi`, `menus`, `units`, `pack`).
+- SNES: `--no-cdi` uses the 3DO sound even when a CD-i disc is given; `--folder` writes the game as a folder
+  instead of a zip.
+- `--unverified disc1=PATH` (or `disc2=`, `cdi=`) uses an image that does not match Redump, at your own risk.
+
+### 6. Play
+
+- **Sega CD**: `output\segacd\bd13.cue` + `bd13.bin`. Keep the two together. On a MiSTer copy both to
+  `games/MegaCD/` and load the `.cue` with the Mega CD core; in an emulator load the `.cue` (a US Sega CD BIOS:
+  the disc carries the US security code); or burn it to a CD-R for a real Sega CD.
+- **SNES**: `output\snes\BrainDead13-MSU1.zip` holds a folder `bd13msu/` with `bd13msu.sfc`, `bd13msu.msu` and
+  `bd13msu-1.pcm` ... `bd13msu-402.pcm`. Unzip it to your SD card (FXPak Pro / SD2SNES, MiSTer `games/SNES/`)
+  or a folder for bsnes / Snes9x 1.60+, and load `bd13msu.sfc`. The files must stay together with these names.
 
 ## How it works
 
@@ -120,7 +187,7 @@ test runs through the cheat menu.
 build_segacd.py, build_snes.py   the builds          discs.py   the Redump check      steps.py   shared
 bd13/3do/      3DO disc reader, game data export      bd13/cdi/  CD-i MPEG track extraction
 segacd/        Sega CD converter and player           snes_msu1/poc_src/  SNES converter and player
-tools/         put the tools here (see each README)   output/    the results
+tools/         put the tools here (see the notes)      output/    the results
 ```
 
 Brain Dead 13 is (c) ReadySoft / Epicenter Interactive. This is a fan project, not affiliated with them, and holds
