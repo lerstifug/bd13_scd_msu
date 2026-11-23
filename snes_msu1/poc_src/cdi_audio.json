@@ -1,0 +1,9384 @@
+{
+ "BD01_001_main": {
+  "samples": 3110888,
+  "covered": 3110736,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ001ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 3110976,
+    "score": 0.983,
+    "worst": 0.769,
+    "probe": 0.998,
+    "ties": []
+   }
+  ]
+ },
+ "BD01_002_main": {
+  "samples": 4457772,
+  "covered": 4457772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ001ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 4458240,
+    "score": 0.984,
+    "worst": 0.864,
+    "probe": 0.993,
+    "ties": []
+   }
+  ]
+ },
+ "BD01_003_main": {
+  "samples": 66148,
+  "covered": 0,
+  "source": "silent",
+  "missing": [],
+  "chain": []
+ },
+ "BD02_001_500": {
+  "samples": 86360,
+  "covered": 86360,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 244800,
+    "score": 0.984,
+    "worst": 0.98,
+    "probe": 0.983,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_001_main": {
+  "samples": 488772,
+  "covered": 488772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 433728,
+    "score": 0.984,
+    "worst": 0.966,
+    "probe": 0.975,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST001SG002",
+    "at": 433488,
+    "lag": 0,
+    "length": 213696,
+    "score": 0.932,
+    "worst": 0.799,
+    "probe": 0.882,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_003_main": {
+  "samples": 242548,
+  "covered": 241496,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 139968,
+    "score": 0.987,
+    "worst": 0.981,
+    "probe": 0.987,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST028SG002",
+    "at": 139728,
+    "lag": 1336,
+    "length": 103104,
+    "score": 0.995,
+    "worst": 0.922,
+    "probe": 0.995,
+    "ties": [
+     "SQ002ST031SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_004_main": {
+  "samples": 255412,
+  "covered": 255412,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST004SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 145728,
+    "score": 0.986,
+    "worst": 0.975,
+    "probe": 0.987,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST004SG002",
+    "at": 145488,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.97,
+    "worst": 0.96,
+    "probe": 0.97,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_005_main": {
+  "samples": 130460,
+  "covered": 130460,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 130752,
+    "score": 0.984,
+    "worst": 0.823,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_006_main": {
+  "samples": 259088,
+  "covered": 259088,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 149184,
+    "score": 0.984,
+    "worst": 0.977,
+    "probe": 0.983,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST006SG002",
+    "at": 148944,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.975,
+    "worst": 0.942,
+    "probe": 0.966,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_007_main": {
+  "samples": 181912,
+  "covered": 181776,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST007SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 182016,
+    "score": 0.983,
+    "worst": 0.972,
+    "probe": 0.983,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_008_main": {
+  "samples": 244388,
+  "covered": 244388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST008SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 141696,
+    "score": 0.983,
+    "worst": 0.978,
+    "probe": 0.984,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST008SG002",
+    "at": 141456,
+    "lag": 0,
+    "length": 103104,
+    "score": 0.982,
+    "worst": 0.977,
+    "probe": 0.979,
+    "ties": [
+     "SQ002ST011SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_009_main": {
+  "samples": 189260,
+  "covered": 189260,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST009SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 134208,
+    "score": 0.981,
+    "worst": 0.97,
+    "probe": 0.98,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST009SG002",
+    "at": 133968,
+    "lag": 0,
+    "length": 213696,
+    "score": 0.952,
+    "worst": 0.858,
+    "probe": 0.93,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_010_main": {
+  "samples": 284812,
+  "covered": 284812,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST010SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 152640,
+    "score": 0.985,
+    "worst": 0.977,
+    "probe": 0.984,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST010SG002",
+    "at": 152400,
+    "lag": 0,
+    "length": 132480,
+    "score": 0.967,
+    "worst": 0.698,
+    "probe": 0.979,
+    "ties": [
+     "SQ002ST040SG002",
+     "SQ002ST025SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_011_main": {
+  "samples": 260924,
+  "covered": 260924,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST011SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 158400,
+    "score": 0.983,
+    "worst": 0.977,
+    "probe": 0.983,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST011SG002",
+    "at": 158160,
+    "lag": 0,
+    "length": 103104,
+    "score": 0.98,
+    "worst": 0.977,
+    "probe": 0.979,
+    "ties": [
+     "SQ002ST008SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_012_main": {
+  "samples": 373012,
+  "covered": 373012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST012SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 263232,
+    "score": 0.97,
+    "worst": 0.94,
+    "probe": 0.96,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST012SG002",
+    "at": 262992,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.979,
+    "worst": 0.06,
+    "probe": 0.979,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_013_main": {
+  "samples": 170888,
+  "covered": 170112,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST013SG001",
+    "at": 0,
+    "lag": 960,
+    "length": 171072,
+    "score": 0.996,
+    "worst": 0.991,
+    "probe": 0.993,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_014_main": {
+  "samples": 183748,
+  "covered": 183748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST014SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 129024,
+    "score": 0.981,
+    "worst": 0.977,
+    "probe": 0.982,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST014SG002",
+    "at": 128784,
+    "lag": 0,
+    "length": 213696,
+    "score": 0.969,
+    "worst": 0.952,
+    "probe": 0.975,
+    "ties": [
+     "SQ002ST009SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_015_main": {
+  "samples": 292160,
+  "covered": 292160,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST015SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 160128,
+    "score": 0.983,
+    "worst": 0.959,
+    "probe": 0.975,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST015SG002",
+    "at": 159888,
+    "lag": 0,
+    "length": 132480,
+    "score": 0.97,
+    "worst": 0.678,
+    "probe": 0.98,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_016_main": {
+  "samples": 361988,
+  "covered": 361988,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST016SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 252288,
+    "score": 0.978,
+    "worst": 0.961,
+    "probe": 0.975,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST016SG002",
+    "at": 252048,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.977,
+    "worst": 0.966,
+    "probe": 0.977,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_017_main": {
+  "samples": 185588,
+  "covered": 185588,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST017SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 186048,
+    "score": 0.984,
+    "worst": 0.97,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_018_main": {
+  "samples": 237036,
+  "covered": 237036,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST018SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 134208,
+    "score": 0.983,
+    "worst": 0.979,
+    "probe": 0.983,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST018SG002",
+    "at": 133968,
+    "lag": 0,
+    "length": 103104,
+    "score": 0.982,
+    "worst": 0.975,
+    "probe": 0.979,
+    "ties": [
+     "SQ002ST011SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_019_main": {
+  "samples": 224172,
+  "covered": 224172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST019SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 224640,
+    "score": 0.986,
+    "worst": 0.979,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_020_main": {
+  "samples": 260924,
+  "covered": 260924,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST020SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 150912,
+    "score": 0.981,
+    "worst": 0.976,
+    "probe": 0.979,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST020SG002",
+    "at": 150672,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.98,
+    "worst": 0.143,
+    "probe": 0.977,
+    "ties": [
+     "SQ002ST022SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_021_main": {
+  "samples": 141488,
+  "covered": 141488,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST021SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 300096,
+    "score": 0.985,
+    "worst": 0.979,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_022_main": {
+  "samples": 316048,
+  "covered": 316048,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST022SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.983,
+    "worst": 0.974,
+    "probe": 0.98,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST022SG002",
+    "at": 205968,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.981,
+    "worst": 0.299,
+    "probe": 0.978,
+    "ties": [
+     "SQ002ST027SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_023_main": {
+  "samples": 260924,
+  "covered": 260924,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST023SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 129024,
+    "score": 0.985,
+    "worst": 0.975,
+    "probe": 0.984,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST023SG002",
+    "at": 128784,
+    "lag": 0,
+    "length": 132480,
+    "score": 0.969,
+    "worst": 0.937,
+    "probe": 0.979,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_024_main": {
+  "samples": 338100,
+  "covered": 338100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST024SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.984,
+    "worst": 0.974,
+    "probe": 0.985,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST015SG002",
+    "at": 205968,
+    "lag": 12,
+    "length": 132480,
+    "score": 0.988,
+    "worst": 0.44,
+    "probe": 0.993,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_025_main": {
+  "samples": 321560,
+  "covered": 321560,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST025SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 189504,
+    "score": 0.984,
+    "worst": 0.976,
+    "probe": 0.983,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST025SG002",
+    "at": 189264,
+    "lag": 0,
+    "length": 132480,
+    "score": 0.968,
+    "worst": 0.551,
+    "probe": 0.979,
+    "ties": [
+     "SQ002ST040SG002",
+     "SQ002ST010SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_026_510": {
+  "samples": 55124,
+  "covered": 55124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST026SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 213696,
+    "score": 0.984,
+    "worst": 0.955,
+    "probe": 0.976,
+    "ties": [
+     "SQ026ST007SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_026_main": {
+  "samples": 281136,
+  "covered": 281136,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST026SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 171072,
+    "score": 0.984,
+    "worst": 0.974,
+    "probe": 0.986,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST026SG002",
+    "at": 170832,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.977,
+    "worst": 0.943,
+    "probe": 0.966,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_027_main": {
+  "samples": 310536,
+  "covered": 310536,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST027SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 200448,
+    "score": 0.977,
+    "worst": 0.958,
+    "probe": 0.978,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST027SG002",
+    "at": 200208,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.98,
+    "worst": 0.207,
+    "probe": 0.978,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_028_main": {
+  "samples": 231524,
+  "covered": 230976,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST028SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 129024,
+    "score": 0.984,
+    "worst": 0.974,
+    "probe": 0.984,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST018SG002",
+    "at": 128784,
+    "lag": 912,
+    "length": 103104,
+    "score": 0.994,
+    "worst": 0.876,
+    "probe": 0.992,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_029_main": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST029SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.983,
+    "worst": 0.871,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_030_main": {
+  "samples": 277460,
+  "covered": 277392,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST030SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 277632,
+    "score": 0.983,
+    "worst": 0.006,
+    "probe": 0.978,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_031_main": {
+  "samples": 237036,
+  "covered": 237036,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST031SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 134208,
+    "score": 0.981,
+    "worst": 0.977,
+    "probe": 0.984,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST031SG002",
+    "at": 133968,
+    "lag": 0,
+    "length": 103104,
+    "score": 0.986,
+    "worst": 0.567,
+    "probe": 0.979,
+    "ties": [
+     "SQ002ST028SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_032_main": {
+  "samples": 303188,
+  "covered": 303188,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST032SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 248256,
+    "score": 0.986,
+    "worst": 0.969,
+    "probe": 0.982,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST032SG002",
+    "at": 248016,
+    "lag": 0,
+    "length": 213696,
+    "score": 0.978,
+    "worst": 0.929,
+    "probe": 0.961,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_034_main": {
+  "samples": 101060,
+  "covered": 101060,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST034SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 259776,
+    "score": 0.986,
+    "worst": 0.428,
+    "probe": 0.982,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_035_main": {
+  "samples": 174560,
+  "covered": 174560,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST035SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 175104,
+    "score": 0.982,
+    "worst": 0.687,
+    "probe": 0.977,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_036_520": {
+  "samples": 102900,
+  "covered": 102816,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST003SG002",
+    "at": 0,
+    "lag": 288,
+    "length": 103104,
+    "score": 0.996,
+    "worst": 0.967,
+    "probe": 0.995,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_036_main": {
+  "samples": 277460,
+  "covered": 277460,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST036SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 167616,
+    "score": 0.988,
+    "worst": 0.977,
+    "probe": 0.99,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST027SG002",
+    "at": 167376,
+    "lag": -1476,
+    "length": 110592,
+    "score": 0.994,
+    "worst": 0.988,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_037_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST037SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 139968,
+    "score": 0.984,
+    "worst": 0.978,
+    "probe": 0.985,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST037SG002",
+    "at": 139728,
+    "lag": 0,
+    "length": 213696,
+    "score": 0.968,
+    "worst": 0.949,
+    "probe": 0.835,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_038_main": {
+  "samples": 275624,
+  "covered": 275624,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST038SG001",
+    "at": 0,
+    "lag": 224,
+    "length": 275904,
+    "score": 0.984,
+    "worst": 0.951,
+    "probe": 0.976,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_040_main": {
+  "samples": 336260,
+  "covered": 336260,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST040SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 204480,
+    "score": 0.982,
+    "worst": 0.973,
+    "probe": 0.978,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST041SG002",
+    "at": 204240,
+    "lag": -332,
+    "length": 132480,
+    "score": 0.991,
+    "worst": 0.971,
+    "probe": 0.993,
+    "ties": [
+     "SQ002ST024SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_041_main": {
+  "samples": 338100,
+  "covered": 338100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST041SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.985,
+    "worst": 0.971,
+    "probe": 0.977,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST015SG002",
+    "at": 205968,
+    "lag": 52,
+    "length": 132480,
+    "score": 0.992,
+    "worst": 0.299,
+    "probe": 0.994,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_042_main": {
+  "samples": 270112,
+  "covered": 270112,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST042SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 160128,
+    "score": 0.984,
+    "worst": 0.975,
+    "probe": 0.986,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST042SG002",
+    "at": 159888,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.976,
+    "worst": 0.955,
+    "probe": 0.977,
+    "ties": [
+     "SQ002ST020SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_059_main": {
+  "samples": 45936,
+  "covered": 45936,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST136SG001",
+    "at": 0,
+    "lag": -496,
+    "length": 218880,
+    "score": 0.988,
+    "worst": 0.988,
+    "probe": 0.559,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_060_main": {
+  "samples": 161700,
+  "covered": 161700,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST059SG001",
+    "at": 0,
+    "lag": 23208,
+    "length": 207936,
+    "score": 0.991,
+    "worst": 0.989,
+    "probe": 0.996,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_133_530": {
+  "samples": 134136,
+  "covered": 133968,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST133SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 134208,
+    "score": 0.987,
+    "worst": 0.971,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_133_main": {
+  "samples": 453860,
+  "covered": 453648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST133SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 453888,
+    "score": 0.985,
+    "worst": 0.95,
+    "probe": 0.997,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_134_540": {
+  "samples": 141488,
+  "covered": 141456,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST134SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 141696,
+    "score": 0.987,
+    "worst": 0.963,
+    "probe": 0.985,
+    "ties": [
+     "SQ002ST135SG003"
+    ]
+   }
+  ]
+ },
+ "BD02_134_560": {
+  "samples": 45936,
+  "covered": 45936,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST134SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 230400,
+    "score": 0.977,
+    "worst": 0.974,
+    "probe": 0.963,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_134_570": {
+  "samples": 180072,
+  "covered": 180048,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST134SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 180288,
+    "score": 0.98,
+    "worst": 0.922,
+    "probe": 0.983,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_134_main": {
+  "samples": 259088,
+  "covered": 258960,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST134SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 259200,
+    "score": 0.98,
+    "worst": 0.956,
+    "probe": 0.992,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_135_550": {
+  "samples": 141488,
+  "covered": 141456,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST135SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 141696,
+    "score": 0.987,
+    "worst": 0.963,
+    "probe": 0.985,
+    "ties": [
+     "SQ002ST134SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_135_580": {
+  "samples": 55124,
+  "covered": 55124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST135SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.94,
+    "worst": 0.301,
+    "probe": 0.895,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_135_590": {
+  "samples": 60636,
+  "covered": 60636,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST135SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 245376,
+    "score": 0.972,
+    "worst": 0.252,
+    "probe": 0.909,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_135_main": {
+  "samples": 534712,
+  "covered": 534416,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST135SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393408,
+    "score": 0.983,
+    "worst": 0.925,
+    "probe": 0.98,
+    "ties": []
+   },
+   {
+    "track": "SQ002ST135SG003",
+    "at": 393168,
+    "lag": 448,
+    "length": 141696,
+    "score": 0.996,
+    "worst": 0.989,
+    "probe": 0.995,
+    "ties": [
+     "SQ002ST134SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_136_600": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST136SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.982,
+    "worst": 0.123,
+    "probe": 0.984,
+    "ties": [
+     "SQ002ST136SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_136_610": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST136SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.982,
+    "worst": 0.123,
+    "probe": 0.984,
+    "ties": [
+     "SQ002ST136SG002"
+    ]
+   }
+  ]
+ },
+ "BD02_136_620": {
+  "samples": 58800,
+  "covered": 58800,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST136SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 243648,
+    "score": 0.959,
+    "worst": 0.394,
+    "probe": 0.911,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_136_630": {
+  "samples": 82688,
+  "covered": 82688,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST136SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 267264,
+    "score": 0.966,
+    "worst": 0.883,
+    "probe": 0.97,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_136_main": {
+  "samples": 218660,
+  "covered": 218660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST136SG001",
+    "at": 0,
+    "lag": 148,
+    "length": 218880,
+    "score": 0.951,
+    "worst": 0.882,
+    "probe": 0.949,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_137_640": {
+  "samples": 150672,
+  "covered": 150672,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST137SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 150912,
+    "score": 0.973,
+    "worst": 0.364,
+    "probe": 0.971,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_137_650": {
+  "samples": 66148,
+  "covered": 66148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST137SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 250560,
+    "score": 0.995,
+    "worst": 0.876,
+    "probe": 0.95,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_137_660": {
+  "samples": 47772,
+  "covered": 47772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST137SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 232128,
+    "score": 0.956,
+    "worst": 0.93,
+    "probe": 0.873,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_137_670": {
+  "samples": 170888,
+  "covered": 170832,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST137SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 171072,
+    "score": 0.977,
+    "worst": 0.368,
+    "probe": 0.98,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_137_680": {
+  "samples": 66148,
+  "covered": 66148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST137SG006",
+    "at": 0,
+    "lag": 240,
+    "length": 250560,
+    "score": 0.983,
+    "worst": 0.736,
+    "probe": 0.867,
+    "ties": []
+   }
+  ]
+ },
+ "BD02_137_main": {
+  "samples": 393224,
+  "covered": 393224,
+  "source": "mix",
+  "missing": [
+   16.25,
+   16.5,
+   16.75,
+   17.0,
+   17.25
+  ],
+  "chain": [
+   {
+    "track": "SQ002ST137SG001",
+    "at": 0,
+    "lag": 220,
+    "length": 327168,
+    "score": 0.895,
+    "worst": 0.68,
+    "probe": 0.946,
+    "ties": []
+   }
+  ],
+  "until": 326948
+ },
+ "BD02_900_main": {
+  "samples": 183748,
+  "covered": 183748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST900SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 184320,
+    "score": 0.984,
+    "worst": 0.962,
+    "probe": 0.985,
+    "ties": [
+     "SQ002ST910SG001"
+    ]
+   }
+  ]
+ },
+ "BD02_901_main": {
+  "samples": 158024,
+  "covered": 158024,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST901SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 158400,
+    "score": 0.96,
+    "worst": 0.866,
+    "probe": 0.961,
+    "ties": [
+     "SQ002ST911SG001"
+    ]
+   }
+  ]
+ },
+ "BD02_910_main": {
+  "samples": 183748,
+  "covered": 183748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST910SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 184320,
+    "score": 0.984,
+    "worst": 0.962,
+    "probe": 0.985,
+    "ties": [
+     "SQ002ST900SG001"
+    ]
+   }
+  ]
+ },
+ "BD02_911_main": {
+  "samples": 158024,
+  "covered": 158024,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ002ST911SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 158400,
+    "score": 0.96,
+    "worst": 0.866,
+    "probe": 0.961,
+    "ties": [
+     "SQ002ST901SG001"
+    ]
+   }
+  ]
+ },
+ "BD03_001_500": {
+  "samples": 69824,
+  "covered": 69824,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST001SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 232128,
+    "score": 0.975,
+    "worst": 0.969,
+    "probe": 0.974,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_001_main": {
+  "samples": 330748,
+  "covered": 330748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 331200,
+    "score": 0.975,
+    "worst": 0.923,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_002_510": {
+  "samples": 119436,
+  "covered": 119436,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST002SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 119808,
+    "score": 0.986,
+    "worst": 0.967,
+    "probe": 0.982,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_002_520": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST002SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 239040,
+    "score": 0.954,
+    "worst": 0.942,
+    "probe": 0.967,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_002_680": {
+  "samples": 132300,
+  "covered": 132300,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST002SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 294336,
+    "score": 0.981,
+    "worst": 0.973,
+    "probe": 0.988,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_002_main": {
+  "samples": 448348,
+  "covered": 448348,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 448704,
+    "score": 0.986,
+    "worst": 0.949,
+    "probe": 0.983,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_003_620": {
+  "samples": 42260,
+  "covered": 42260,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST003SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 204480,
+    "score": 0.965,
+    "worst": 0.96,
+    "probe": 0.966,
+    "ties": [
+     "SQ003ST005SG002"
+    ]
+   }
+  ]
+ },
+ "BD03_003_630": {
+  "samples": 101060,
+  "covered": 101060,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST003SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 101376,
+    "score": 0.962,
+    "worst": 0.95,
+    "probe": 0.964,
+    "ties": [
+     "SQ003ST005SG003"
+    ]
+   }
+  ]
+ },
+ "BD03_003_main": {
+  "samples": 731324,
+  "covered": 731300,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST003SG001",
+    "at": 0,
+    "lag": 220,
+    "length": 731520,
+    "score": 0.964,
+    "worst": 0.933,
+    "probe": 0.972,
+    "ties": [
+     "SQ003ST005SG001"
+    ]
+   }
+  ]
+ },
+ "BD03_004_540": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST004SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 239040,
+    "score": 0.973,
+    "worst": 0.972,
+    "probe": 0.979,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_004_640": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST004SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 239040,
+    "score": 0.973,
+    "worst": 0.959,
+    "probe": 0.983,
+    "ties": [
+     "SQ003ST004SG003"
+    ]
+   }
+  ]
+ },
+ "BD03_004_650": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST004SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 239040,
+    "score": 0.973,
+    "worst": 0.959,
+    "probe": 0.983,
+    "ties": [
+     "SQ003ST004SG003"
+    ]
+   }
+  ]
+ },
+ "BD03_004_main": {
+  "samples": 661500,
+  "covered": 661500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST004SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 529344,
+    "score": 0.983,
+    "worst": 0.963,
+    "probe": 0.985,
+    "ties": []
+   },
+   {
+    "track": "SQ003ST004SG002",
+    "at": 529104,
+    "lag": 0,
+    "length": 294336,
+    "score": 0.979,
+    "worst": 0.974,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_005_660": {
+  "samples": 42260,
+  "covered": 42260,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST005SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 204480,
+    "score": 0.965,
+    "worst": 0.96,
+    "probe": 0.966,
+    "ties": [
+     "SQ003ST003SG002"
+    ]
+   }
+  ]
+ },
+ "BD03_005_670": {
+  "samples": 101060,
+  "covered": 101060,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST005SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 101376,
+    "score": 0.962,
+    "worst": 0.95,
+    "probe": 0.964,
+    "ties": [
+     "SQ003ST003SG003"
+    ]
+   }
+  ]
+ },
+ "BD03_005_main": {
+  "samples": 731324,
+  "covered": 731300,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST005SG001",
+    "at": 0,
+    "lag": 220,
+    "length": 731520,
+    "score": 0.964,
+    "worst": 0.933,
+    "probe": 0.972,
+    "ties": [
+     "SQ003ST003SG001"
+    ]
+   }
+  ]
+ },
+ "BD03_006_560": {
+  "samples": 40424,
+  "covered": 40424,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST006SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 202752,
+    "score": 0.975,
+    "worst": 0.974,
+    "probe": 0.975,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_006_main": {
+  "samples": 446512,
+  "covered": 446512,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 371520,
+    "score": 0.983,
+    "worst": 0.969,
+    "probe": 0.977,
+    "ties": []
+   },
+   {
+    "track": "SQ003ST006SG002",
+    "at": 371280,
+    "lag": 0,
+    "length": 237312,
+    "score": 0.991,
+    "worst": 0.974,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_007_main": {
+  "samples": 121272,
+  "covered": 121272,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST007SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 121536,
+    "score": 0.974,
+    "worst": 0.951,
+    "probe": 0.964,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_008_580": {
+  "samples": 42260,
+  "covered": 42260,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST008SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 204480,
+    "score": 0.974,
+    "worst": 0.974,
+    "probe": 0.974,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_008_590": {
+  "samples": 38588,
+  "covered": 38588,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST008SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 200448,
+    "score": 0.969,
+    "worst": 0.958,
+    "probe": 0.972,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_008_main": {
+  "samples": 156188,
+  "covered": 156188,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST008SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 156672,
+    "score": 0.966,
+    "worst": 0.948,
+    "probe": 0.961,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_009_570": {
+  "samples": 44100,
+  "covered": 44100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST009SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.938,
+    "worst": 0.927,
+    "probe": 0.944,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_009_610": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST009SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 239040,
+    "score": 0.986,
+    "worst": 0.984,
+    "probe": 0.986,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_009_main": {
+  "samples": 970200,
+  "covered": 970200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST009SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 970560,
+    "score": 0.984,
+    "worst": 0.943,
+    "probe": 0.992,
+    "ties": []
+   }
+  ]
+ },
+ "BD03_900_main": {
+  "samples": 161700,
+  "covered": 161616,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ003ST900SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 161856,
+    "score": 0.979,
+    "worst": 0.96,
+    "probe": 0.977,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_001_main": {
+  "samples": 1418548,
+  "covered": 1418448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 1418688,
+    "score": 0.985,
+    "worst": 0.959,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_002_540": {
+  "samples": 141488,
+  "covered": 141456,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST002SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 141696,
+    "score": 0.971,
+    "worst": 0.951,
+    "probe": 0.971,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_002_main": {
+  "samples": 832388,
+  "covered": 832388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST002SG001",
+    "at": 0,
+    "lag": 224,
+    "length": 650880,
+    "score": 0.985,
+    "worst": 0.93,
+    "probe": 0.967,
+    "ties": []
+   },
+   {
+    "track": "SQ004ST002SG002",
+    "at": 650656,
+    "lag": 0,
+    "length": 182016,
+    "score": 0.965,
+    "worst": 0.938,
+    "probe": 0.948,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_003_main": {
+  "samples": 165372,
+  "covered": 165372,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 165888,
+    "score": 0.988,
+    "worst": 0.978,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_004_main": {
+  "samples": 165372,
+  "covered": 165372,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST004SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 165888,
+    "score": 0.984,
+    "worst": 0.97,
+    "probe": 0.98,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_005_510": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST005SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.986,
+    "worst": 0.983,
+    "probe": 0.988,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_005_520": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST005SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.961,
+    "worst": 0.95,
+    "probe": 0.961,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_005_main": {
+  "samples": 782772,
+  "covered": 782772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST005SG001",
+    "at": 0,
+    "lag": 224,
+    "length": 601344,
+    "score": 0.982,
+    "worst": 0.897,
+    "probe": 0.978,
+    "ties": []
+   },
+   {
+    "track": "SQ004ST005SG002",
+    "at": 601120,
+    "lag": 0,
+    "length": 182016,
+    "score": 0.968,
+    "worst": 0.941,
+    "probe": 0.945,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_006_530": {
+  "samples": 165372,
+  "covered": 165372,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST006SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 165888,
+    "score": 0.985,
+    "worst": 0.962,
+    "probe": 0.976,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_006_main": {
+  "samples": 1078612,
+  "covered": 1078608,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 896832,
+    "score": 0.985,
+    "worst": 0.948,
+    "probe": 0.989,
+    "ties": []
+   },
+   {
+    "track": "SQ004ST006SG002",
+    "at": 896592,
+    "lag": 0,
+    "length": 182016,
+    "score": 0.981,
+    "worst": 0.936,
+    "probe": 0.971,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_007_main": {
+  "samples": 154348,
+  "covered": 154128,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST007SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 154368,
+    "score": 0.989,
+    "worst": 0.981,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_008_main": {
+  "samples": 154348,
+  "covered": 154128,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST008SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 154368,
+    "score": 0.988,
+    "worst": 0.98,
+    "probe": 0.982,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_009_main": {
+  "samples": 158024,
+  "covered": 158024,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST009SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 158400,
+    "score": 0.982,
+    "worst": 0.961,
+    "probe": 0.974,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_010_main": {
+  "samples": 154348,
+  "covered": 154128,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST010SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 154368,
+    "score": 0.986,
+    "worst": 0.975,
+    "probe": 0.982,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_011_main": {
+  "samples": 832388,
+  "covered": 832388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST011SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 623232,
+    "score": 0.985,
+    "worst": 0.932,
+    "probe": 0.985,
+    "ties": []
+   },
+   {
+    "track": "SQ004ST011SG002",
+    "at": 622992,
+    "lag": 0,
+    "length": 209664,
+    "score": 0.982,
+    "worst": 0.97,
+    "probe": 0.983,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_012_main": {
+  "samples": 286648,
+  "covered": 286608,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST012SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 286848,
+    "score": 0.984,
+    "worst": 0.948,
+    "probe": 0.973,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_013_500": {
+  "samples": 102900,
+  "covered": 102864,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST013SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 103104,
+    "score": 0.96,
+    "worst": 0.952,
+    "probe": 0.964,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_013_550": {
+  "samples": 60636,
+  "covered": 60636,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST013SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 267264,
+    "score": 0.976,
+    "worst": 0.975,
+    "probe": 0.976,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_013_main": {
+  "samples": 1266036,
+  "covered": 1265828,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST013SG001",
+    "at": 0,
+    "lag": 220,
+    "length": 1266048,
+    "score": 0.921,
+    "worst": 0.825,
+    "probe": 0.933,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_014_main": {
+  "samples": 183748,
+  "covered": 183748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST014SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 184320,
+    "score": 0.98,
+    "worst": 0.972,
+    "probe": 0.977,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_015_main": {
+  "samples": 119436,
+  "covered": 119436,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST015SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 119808,
+    "score": 0.984,
+    "worst": 0.979,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD04_900_main": {
+  "samples": 205800,
+  "covered": 205800,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ004ST900SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.987,
+    "worst": 0.975,
+    "probe": 0.99,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_001_main": {
+  "samples": 1207236,
+  "covered": 1207056,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 1207296,
+    "score": 0.983,
+    "worst": 0.958,
+    "probe": 0.978,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_002_main": {
+  "samples": 45936,
+  "covered": 45936,
+  "source": "3do",
+  "missing": [
+   1.25,
+   1.5
+  ],
+  "chain": [
+   {
+    "track": "SQ005ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 463104,
+    "score": 0.719,
+    "worst": 0.47,
+    "probe": 0.744,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_003_500": {
+  "samples": 42260,
+  "covered": 42260,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ006ST001SG002",
+    "at": 0,
+    "lag": 444,
+    "length": 210240,
+    "score": 0.98,
+    "worst": 0.976,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_003_510": {
+  "samples": 110248,
+  "covered": 110248,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST003SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 110592,
+    "score": 0.973,
+    "worst": 0.958,
+    "probe": 0.967,
+    "ties": [
+     "SQ005ST003SG003"
+    ]
+   }
+  ]
+ },
+ "BD05_003_520": {
+  "samples": 110248,
+  "covered": 110248,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST003SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 110592,
+    "score": 0.973,
+    "worst": 0.958,
+    "probe": 0.967,
+    "ties": [
+     "SQ005ST003SG003"
+    ]
+   }
+  ]
+ },
+ "BD05_003_main": {
+  "samples": 358312,
+  "covered": 358312,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 358848,
+    "score": 0.975,
+    "worst": 0.93,
+    "probe": 0.956,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_004_main": {
+  "samples": 191100,
+  "covered": 191100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST004SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 149184,
+    "score": 0.983,
+    "worst": 0.965,
+    "probe": 0.986,
+    "ties": []
+   },
+   {
+    "track": "SQ005ST004SG002",
+    "at": 148944,
+    "lag": 0,
+    "length": 259776,
+    "score": 0.955,
+    "worst": 0.948,
+    "probe": 0.954,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_005_530": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST005SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 294336,
+    "score": 0.983,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ043ST033SG005",
+     "SQ043ST033SG004",
+     "SQ034ST033SG005",
+     "SQ034ST033SG004",
+     "SQ005ST005SG002",
+     "SQ005ST002SG003",
+     "SQ005ST002SG002"
+    ]
+   }
+  ]
+ },
+ "BD05_005_540": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST005SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 294336,
+    "score": 0.983,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ043ST033SG005",
+     "SQ043ST033SG004",
+     "SQ034ST033SG005",
+     "SQ034ST033SG004",
+     "SQ005ST005SG002",
+     "SQ005ST002SG003",
+     "SQ005ST002SG002"
+    ]
+   }
+  ]
+ },
+ "BD05_005_main": {
+  "samples": 417112,
+  "covered": 417112,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 417600,
+    "score": 0.977,
+    "worst": 0.941,
+    "probe": 0.976,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_007_550": {
+  "samples": 80848,
+  "covered": 80848,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST007SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 298368,
+    "score": 0.985,
+    "worst": 0.975,
+    "probe": 0.979,
+    "ties": [
+     "SQ005ST013SG002"
+    ]
+   }
+  ]
+ },
+ "BD05_007_560": {
+  "samples": 128624,
+  "covered": 128624,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST007SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 129024,
+    "score": 0.986,
+    "worst": 0.966,
+    "probe": 0.987,
+    "ties": [
+     "SQ005ST009SG002"
+    ]
+   }
+  ]
+ },
+ "BD05_007_main": {
+  "samples": 459372,
+  "covered": 459372,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST007SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 459648,
+    "score": 0.978,
+    "worst": 0.95,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_009_570": {
+  "samples": 128624,
+  "covered": 128624,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST009SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 129024,
+    "score": 0.986,
+    "worst": 0.966,
+    "probe": 0.987,
+    "ties": [
+     "SQ005ST007SG003"
+    ]
+   }
+  ]
+ },
+ "BD05_009_580": {
+  "samples": 29400,
+  "covered": 29400,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST009SG006",
+    "at": 0,
+    "lag": 240,
+    "length": 247104,
+    "score": 0.973,
+    "worst": 0.973,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_009_630": {
+  "samples": 121272,
+  "covered": 121272,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST009SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 121536,
+    "score": 0.979,
+    "worst": 0.964,
+    "probe": 0.974,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_009_640": {
+  "samples": 47772,
+  "covered": 47772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST009SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 264960,
+    "score": 0.962,
+    "worst": 0.954,
+    "probe": 0.97,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_009_650": {
+  "samples": 55124,
+  "covered": 55124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST009SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 272448,
+    "score": 0.957,
+    "worst": 0.956,
+    "probe": 0.96,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_009_main": {
+  "samples": 450188,
+  "covered": 450188,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST009SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 450432,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.986,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_011_590": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST011SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 294336,
+    "score": 0.982,
+    "worst": 0.965,
+    "probe": 0.976,
+    "ties": [
+     "SQ005ST011SG002"
+    ]
+   }
+  ]
+ },
+ "BD05_011_600": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST011SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 294336,
+    "score": 0.982,
+    "worst": 0.965,
+    "probe": 0.976,
+    "ties": [
+     "SQ005ST011SG002"
+    ]
+   }
+  ]
+ },
+ "BD05_011_main": {
+  "samples": 417112,
+  "covered": 417112,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST011SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 417600,
+    "score": 0.979,
+    "worst": 0.953,
+    "probe": 0.982,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_013_610": {
+  "samples": 80848,
+  "covered": 80848,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST013SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 298368,
+    "score": 0.985,
+    "worst": 0.975,
+    "probe": 0.979,
+    "ties": [
+     "SQ005ST007SG002"
+    ]
+   }
+  ]
+ },
+ "BD05_013_620": {
+  "samples": 128624,
+  "covered": 128624,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST013SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 129024,
+    "score": 0.984,
+    "worst": 0.962,
+    "probe": 0.986,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_013_main": {
+  "samples": 558600,
+  "covered": 558480,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST013SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 558720,
+    "score": 0.98,
+    "worst": 0.952,
+    "probe": 0.973,
+    "ties": []
+   }
+  ]
+ },
+ "BD05_900_main": {
+  "samples": 216824,
+  "covered": 216824,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ005ST900SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 217152,
+    "score": 0.99,
+    "worst": 0.978,
+    "probe": 0.99,
+    "ties": []
+   }
+  ]
+ },
+ "BD06_001_main": {
+  "samples": 626588,
+  "covered": 626588,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ006ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 584640,
+    "score": 0.984,
+    "worst": 0.957,
+    "probe": 0.987,
+    "ties": []
+   },
+   {
+    "track": "SQ006ST001SG002",
+    "at": 584400,
+    "lag": 0,
+    "length": 210240,
+    "score": 0.961,
+    "worst": 0.946,
+    "probe": 0.969,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_001_main": {
+  "samples": 1051048,
+  "covered": 1050960,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 1051200,
+    "score": 0.985,
+    "worst": 0.941,
+    "probe": 0.98,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_002_main": {
+  "samples": 214988,
+  "covered": 214988,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 104832,
+    "score": 0.985,
+    "worst": 0.963,
+    "probe": 0.968,
+    "ties": []
+   },
+   {
+    "track": "SQ007ST002SG002",
+    "at": 104592,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.976,
+    "worst": 0.953,
+    "probe": 0.979,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_003_main": {
+  "samples": 222336,
+  "covered": 222336,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.986,
+    "worst": 0.985,
+    "probe": 0.986,
+    "ties": []
+   },
+   {
+    "track": "SQ007ST003SG002",
+    "at": 112080,
+    "lag": 0,
+    "length": 110592,
+    "score": 0.978,
+    "worst": 0.94,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_004_main": {
+  "samples": 174560,
+  "covered": 174560,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST004SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 175104,
+    "score": 0.983,
+    "worst": 0.962,
+    "probe": 0.983,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_005_510": {
+  "samples": 44100,
+  "covered": 0,
+  "source": "silent",
+  "missing": [],
+  "chain": []
+ },
+ "BD07_005_main": {
+  "samples": 619236,
+  "covered": 619236,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 619776,
+    "score": 0.98,
+    "worst": 0.958,
+    "probe": 0.977,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_006_510": {
+  "samples": 44100,
+  "covered": 0,
+  "source": "silent",
+  "missing": [],
+  "chain": []
+ },
+ "BD07_006_main": {
+  "samples": 663336,
+  "covered": 663312,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 663552,
+    "score": 0.974,
+    "worst": 0.959,
+    "probe": 0.977,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_007_500": {
+  "samples": 44100,
+  "covered": 44100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST007SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.959,
+    "worst": 0.954,
+    "probe": 0.959,
+    "ties": [
+     "SQ007ST006SG002",
+     "SQ007ST005SG002"
+    ]
+   }
+  ]
+ },
+ "BD07_007_main": {
+  "samples": 1466324,
+  "covered": 1466256,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST007SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 1466496,
+    "score": 0.982,
+    "worst": 0.956,
+    "probe": 0.978,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_008_520": {
+  "samples": 44100,
+  "covered": 44100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST008SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.984,
+    "worst": 0.977,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_008_main": {
+  "samples": 1354236,
+  "covered": 1354236,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST008SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 1354752,
+    "score": 0.983,
+    "worst": 0.0,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD07_009_main": {
+  "samples": 5799148,
+  "covered": 5247696,
+  "source": "3do",
+  "missing": [
+   238.48,
+   238.98,
+   239.23,
+   239.48,
+   239.73,
+   239.98,
+   240.73,
+   240.98,
+   241.23,
+   241.48,
+   241.73,
+   241.98,
+   242.23,
+   242.48,
+   242.73,
+   242.98,
+   243.23,
+   243.48,
+   243.73,
+   243.98
+  ],
+  "chain": [
+   {
+    "track": "SQ007ST009SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 1213056,
+    "score": 0.994,
+    "worst": 0.965,
+    "probe": 0.993,
+    "ties": []
+   },
+   {
+    "track": "SQ007ST109SG001",
+    "at": 1212816,
+    "lag": 0,
+    "length": 1168704,
+    "score": 0.987,
+    "worst": 0.959,
+    "probe": 0.962,
+    "ties": []
+   },
+   {
+    "track": "SQ007ST209SG001",
+    "at": 2381520,
+    "lag": 0,
+    "length": 1146816,
+    "score": 0.988,
+    "worst": 0.963,
+    "probe": 0.993,
+    "ties": []
+   },
+   {
+    "track": "SQ007ST309SG001",
+    "at": 3528336,
+    "lag": 0,
+    "length": 992448,
+    "score": 0.991,
+    "worst": 0.967,
+    "probe": 0.994,
+    "ties": []
+   },
+   {
+    "track": "SQ007ST409SG001",
+    "at": 4520784,
+    "lag": 576,
+    "length": 595584,
+    "score": 0.985,
+    "worst": 0.969,
+    "probe": 0.979,
+    "ties": []
+   },
+   {
+    "track": "SQ007ST509SG001",
+    "at": 5115792,
+    "lag": 22464,
+    "length": 154368,
+    "score": 0.989,
+    "worst": 0.986,
+    "probe": 0.989,
+    "ties": []
+   },
+   {
+    "track": "SQ031ST006SG001",
+    "at": 5247696,
+    "lag": 65192,
+    "length": 136512,
+    "score": 0.287,
+    "worst": 0.173,
+    "probe": 0.244,
+    "ties": [],
+    "bad": true
+   }
+  ]
+ },
+ "BD07_900_main": {
+  "samples": 161700,
+  "covered": 161616,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ007ST900SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 161856,
+    "score": 0.986,
+    "worst": 0.965,
+    "probe": 0.972,
+    "ties": []
+   }
+  ]
+ },
+ "BD08_001_500": {
+  "samples": 154348,
+  "covered": 154128,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ008ST001SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 154368,
+    "score": 0.981,
+    "worst": 0.967,
+    "probe": 0.976,
+    "ties": [
+     "SQ008ST001SG004",
+     "SQ008ST001SG003",
+     "SQ008ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD08_001_520": {
+  "samples": 154348,
+  "covered": 154128,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ008ST001SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 154368,
+    "score": 0.981,
+    "worst": 0.967,
+    "probe": 0.976,
+    "ties": [
+     "SQ008ST001SG004",
+     "SQ008ST001SG003",
+     "SQ008ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD08_001_530": {
+  "samples": 154348,
+  "covered": 154128,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ008ST001SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 154368,
+    "score": 0.981,
+    "worst": 0.967,
+    "probe": 0.976,
+    "ties": [
+     "SQ008ST001SG004",
+     "SQ008ST001SG003",
+     "SQ008ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD08_001_540": {
+  "samples": 154348,
+  "covered": 154128,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ008ST001SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 154368,
+    "score": 0.981,
+    "worst": 0.967,
+    "probe": 0.976,
+    "ties": [
+     "SQ008ST001SG004",
+     "SQ008ST001SG003",
+     "SQ008ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD08_001_main": {
+  "samples": 341772,
+  "covered": 341772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ008ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 342144,
+    "score": 0.971,
+    "worst": 0.928,
+    "probe": 0.964,
+    "ties": []
+   }
+  ]
+ },
+ "BD09_001_500": {
+  "samples": 36748,
+  "covered": 36748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ009ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 204480,
+    "score": 0.987,
+    "worst": 0.985,
+    "probe": 0.986,
+    "ties": [
+     "SQ009ST001SG003",
+     "SQ009ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD09_001_510": {
+  "samples": 36748,
+  "covered": 36748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ009ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 204480,
+    "score": 0.987,
+    "worst": 0.985,
+    "probe": 0.986,
+    "ties": [
+     "SQ009ST001SG003",
+     "SQ009ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD09_001_520": {
+  "samples": 36748,
+  "covered": 36748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ009ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 204480,
+    "score": 0.987,
+    "worst": 0.985,
+    "probe": 0.986,
+    "ties": [
+     "SQ009ST001SG003",
+     "SQ009ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD09_001_main": {
+  "samples": 349124,
+  "covered": 349124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ009ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 349632,
+    "score": 0.987,
+    "worst": 0.981,
+    "probe": 0.991,
+    "ties": []
+   }
+  ]
+ },
+ "BD10_001_500": {
+  "samples": 99224,
+  "covered": 99224,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ010ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 99648,
+    "score": 0.953,
+    "worst": 0.924,
+    "probe": 0.974,
+    "ties": [
+     "SQ010ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD10_001_510": {
+  "samples": 99224,
+  "covered": 99224,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ010ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 99648,
+    "score": 0.953,
+    "worst": 0.924,
+    "probe": 0.974,
+    "ties": [
+     "SQ010ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD10_001_main": {
+  "samples": 367500,
+  "covered": 367500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ010ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 368064,
+    "score": 0.984,
+    "worst": 0.97,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD11_001_500": {
+  "samples": 115760,
+  "covered": 115536,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ011ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 115776,
+    "score": 0.991,
+    "worst": 0.959,
+    "probe": 0.98,
+    "ties": [
+     "SQ011ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD11_001_510": {
+  "samples": 115760,
+  "covered": 115536,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ011ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 115776,
+    "score": 0.991,
+    "worst": 0.959,
+    "probe": 0.98,
+    "ties": [
+     "SQ011ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD11_001_main": {
+  "samples": 271948,
+  "covered": 271948,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ011ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 272448,
+    "score": 0.987,
+    "worst": 0.981,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD12_001_510": {
+  "samples": 60636,
+  "covered": 60636,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ012ST001SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 224640,
+    "score": 0.978,
+    "worst": 0.977,
+    "probe": 0.98,
+    "ties": []
+   }
+  ]
+ },
+ "BD12_001_520": {
+  "samples": 60636,
+  "covered": 60636,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ012ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 224640,
+    "score": 0.988,
+    "worst": 0.973,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD12_001_530": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ012ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.989,
+    "worst": 0.982,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD12_001_main": {
+  "samples": 249900,
+  "covered": 249744,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ012ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 249984,
+    "score": 0.972,
+    "worst": 0.951,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD13_001_500": {
+  "samples": 29400,
+  "covered": 29400,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ013ST001SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 197568,
+    "score": 0.981,
+    "worst": 0.981,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD13_001_main": {
+  "samples": 110248,
+  "covered": 110248,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ013ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 110592,
+    "score": 0.991,
+    "worst": 0.986,
+    "probe": 0.987,
+    "ties": []
+   }
+  ]
+ },
+ "BD14_001_500": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ014ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 240768,
+    "score": 0.979,
+    "worst": 0.974,
+    "probe": 0.98,
+    "ties": [
+     "SQ014ST001SG003"
+    ]
+   }
+  ]
+ },
+ "BD14_001_510": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ014ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 240768,
+    "score": 0.979,
+    "worst": 0.974,
+    "probe": 0.98,
+    "ties": [
+     "SQ014ST001SG003"
+    ]
+   }
+  ]
+ },
+ "BD14_001_530": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "3do",
+  "missing": [
+   3.5
+  ],
+  "chain": [
+   {
+    "track": "SQ014ST001SG006",
+    "at": 0,
+    "lag": 240,
+    "length": 240768,
+    "score": 0.967,
+    "worst": 0.69,
+    "probe": 0.971,
+    "ties": [
+     "SQ014ST001SG005"
+    ]
+   }
+  ]
+ },
+ "BD14_001_540": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ014ST001SG006",
+    "at": 0,
+    "lag": 240,
+    "length": 240768,
+    "score": 0.967,
+    "worst": 0.961,
+    "probe": 0.971,
+    "ties": [
+     "SQ014ST001SG005"
+    ]
+   }
+  ]
+ },
+ "BD14_001_main": {
+  "samples": 452024,
+  "covered": 452024,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ014ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 422784,
+    "score": 0.973,
+    "worst": 0.952,
+    "probe": 0.966,
+    "ties": []
+   },
+   {
+    "track": "SQ014ST001SG002",
+    "at": 422544,
+    "lag": 0,
+    "length": 193536,
+    "score": 0.97,
+    "worst": 0.97,
+    "probe": 0.971,
+    "ties": []
+   }
+  ]
+ },
+ "BD14_002_520": {
+  "samples": 47772,
+  "covered": 47772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ014ST002SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 211392,
+    "score": 0.982,
+    "worst": 0.98,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD14_002_main": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ014ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.991,
+    "worst": 0.976,
+    "probe": 0.987,
+    "ties": []
+   }
+  ]
+ },
+ "BD14_003_main": {
+  "samples": 108412,
+  "covered": 108412,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ014ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 108864,
+    "score": 0.991,
+    "worst": 0.976,
+    "probe": 0.991,
+    "ties": []
+   }
+  ]
+ },
+ "BD15_001_500": {
+  "samples": 47772,
+  "covered": 47772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ015ST001SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 211392,
+    "score": 0.99,
+    "worst": 0.988,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD15_001_main": {
+  "samples": 242548,
+  "covered": 242548,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ015ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 243072,
+    "score": 0.989,
+    "worst": 0.974,
+    "probe": 0.988,
+    "ties": []
+   }
+  ]
+ },
+ "BD16_001_500": {
+  "samples": 91872,
+  "covered": 91872,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ016ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 92160,
+    "score": 0.964,
+    "worst": 0.929,
+    "probe": 0.967,
+    "ties": [
+     "SQ016ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD16_001_510": {
+  "samples": 91872,
+  "covered": 91872,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ016ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 92160,
+    "score": 0.964,
+    "worst": 0.93,
+    "probe": 0.966,
+    "ties": []
+   }
+  ]
+ },
+ "BD16_001_520": {
+  "samples": 91872,
+  "covered": 91872,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ016ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 92160,
+    "score": 0.964,
+    "worst": 0.929,
+    "probe": 0.967,
+    "ties": [
+     "SQ016ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD16_001_main": {
+  "samples": 268272,
+  "covered": 268176,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ016ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 268416,
+    "score": 0.988,
+    "worst": 0.93,
+    "probe": 0.982,
+    "ties": []
+   }
+  ]
+ },
+ "BD17_001_500": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ017ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.982,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ017ST001SG003",
+     "SQ017ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD17_001_510": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ017ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.982,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ017ST001SG003",
+     "SQ017ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD17_001_520": {
+  "samples": 88200,
+  "covered": 88200,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ017ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 88704,
+    "score": 0.982,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ017ST001SG003",
+     "SQ017ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD17_001_main": {
+  "samples": 371172,
+  "covered": 371172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ017ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 371520,
+    "score": 0.978,
+    "worst": 0.956,
+    "probe": 0.988,
+    "ties": []
+   }
+  ]
+ },
+ "BD18_001_500": {
+  "samples": 102900,
+  "covered": 102864,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ018ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 103104,
+    "score": 0.972,
+    "worst": 0.964,
+    "probe": 0.971,
+    "ties": [
+     "SQ018ST001SG003",
+     "SQ018ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD18_001_510": {
+  "samples": 102900,
+  "covered": 102864,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ018ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 103104,
+    "score": 0.972,
+    "worst": 0.964,
+    "probe": 0.971,
+    "ties": [
+     "SQ018ST001SG003",
+     "SQ018ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD18_001_520": {
+  "samples": 102900,
+  "covered": 102864,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ018ST001SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 103104,
+    "score": 0.972,
+    "worst": 0.964,
+    "probe": 0.971,
+    "ties": [
+     "SQ018ST001SG003",
+     "SQ018ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD18_001_main": {
+  "samples": 393224,
+  "covered": 393168,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ018ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393408,
+    "score": 0.991,
+    "worst": 0.974,
+    "probe": 0.992,
+    "ties": []
+   }
+  ]
+ },
+ "BD19_001_500": {
+  "samples": 62472,
+  "covered": 62472,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ019ST001SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 226368,
+    "score": 0.96,
+    "worst": 0.902,
+    "probe": 0.966,
+    "ties": []
+   }
+  ]
+ },
+ "BD19_001_main": {
+  "samples": 180072,
+  "covered": 180048,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ019ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 180288,
+    "score": 0.987,
+    "worst": 0.977,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD20_001_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.988,
+    "worst": 0.985,
+    "probe": 0.987,
+    "ties": []
+   }
+  ]
+ },
+ "BD20_004_main": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST104SG001",
+    "at": 0,
+    "lag": 33316,
+    "length": 143424,
+    "score": 0.917,
+    "worst": 0.807,
+    "probe": 0.922,
+    "ties": []
+   }
+  ]
+ },
+ "BD20_005_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.988,
+    "worst": 0.988,
+    "probe": 0.988,
+    "ties": []
+   }
+  ]
+ },
+ "BD20_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 241344,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393984,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_900_main": {
+  "samples": 163536,
+  "covered": 163344,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST900SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 163584,
+    "score": 0.984,
+    "worst": 0.982,
+    "probe": 0.989,
+    "ties": [
+     "SQ030ST900SG001",
+     "SQ022ST900SG001",
+     "SQ021ST900SG001",
+     "SQ017ST900SG001",
+     "SQ014ST900SG001",
+     "SQ012ST900SG001"
+    ]
+   }
+  ]
+ },
+ "BD20_910_main": {
+  "samples": 167212,
+  "covered": 167212,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ020ST910SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 167616,
+    "score": 0.977,
+    "worst": 0.948,
+    "probe": 0.98,
+    "ties": [
+     "SQ041ST910SG001",
+     "SQ036ST910SG001",
+     "SQ031ST910SG001",
+     "SQ027ST910SG001",
+     "SQ026ST910SG001",
+     "SQ025ST910SG001",
+     "SQ018ST910SG001",
+     "SQ011ST910SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_001_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.981,
+    "worst": 0.976,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD21_004_main": {
+  "samples": 82688,
+  "covered": 82688,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST004SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.977,
+    "worst": 0.964,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD21_005_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.98,
+    "worst": 0.976,
+    "probe": 0.982,
+    "ties": []
+   }
+  ]
+ },
+ "BD21_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 235584,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 237312,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 389952,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD21_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ021ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_001_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.987,
+    "worst": 0.985,
+    "probe": 0.987,
+    "ties": []
+   }
+  ]
+ },
+ "BD22_003_main": {
+  "samples": 128624,
+  "covered": 128624,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 129024,
+    "score": 0.989,
+    "worst": 0.983,
+    "probe": 0.988,
+    "ties": []
+   }
+  ]
+ },
+ "BD22_005_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.986,
+    "worst": 0.982,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD22_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 235584,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 237312,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 389952,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD22_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ022ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_001_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.981,
+    "worst": 0.965,
+    "probe": 0.986,
+    "ties": []
+   }
+  ]
+ },
+ "BD25_003_main": {
+  "samples": 143324,
+  "covered": 143184,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 143424,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.98,
+    "ties": []
+   }
+  ]
+ },
+ "BD25_005_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.981,
+    "worst": 0.966,
+    "probe": 0.987,
+    "ties": []
+   }
+  ]
+ },
+ "BD25_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 241344,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393984,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD25_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ025ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_001_main": {
+  "samples": 156188,
+  "covered": 156188,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 156672,
+    "score": 0.985,
+    "worst": 0.974,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_003_main": {
+  "samples": 141488,
+  "covered": 141456,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 141696,
+    "score": 0.986,
+    "worst": 0.979,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_005_600": {
+  "samples": 106572,
+  "covered": 106572,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST005SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 107136,
+    "score": 0.987,
+    "worst": 0.98,
+    "probe": 0.986,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_005_main": {
+  "samples": 167212,
+  "covered": 167212,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 167616,
+    "score": 0.981,
+    "worst": 0.96,
+    "probe": 0.986,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_006_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.985,
+    "worst": 0.981,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_007_590": {
+  "samples": 55124,
+  "covered": 55124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST007SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 222912,
+    "score": 0.984,
+    "worst": 0.955,
+    "probe": 0.976,
+    "ties": [
+     "SQ002ST026SG003"
+    ]
+   }
+  ]
+ },
+ "BD26_007_main": {
+  "samples": 95548,
+  "covered": 95376,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST007SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 95616,
+    "score": 0.985,
+    "worst": 0.982,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_008_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST008SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.983,
+    "worst": 0.979,
+    "probe": 0.984,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_009_main": {
+  "samples": 121272,
+  "covered": 121272,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST009SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 121536,
+    "score": 0.969,
+    "worst": 0.934,
+    "probe": 0.956,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_010_main": {
+  "samples": 80848,
+  "covered": 80848,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST010SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.986,
+    "worst": 0.98,
+    "probe": 0.988,
+    "ties": []
+   }
+  ]
+ },
+ "BD26_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 241344,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393984,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD26_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ026ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_001_main": {
+  "samples": 97388,
+  "covered": 97388,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 97920,
+    "score": 0.992,
+    "worst": 0.987,
+    "probe": 0.992,
+    "ties": []
+   }
+  ]
+ },
+ "BD27_005_main": {
+  "samples": 134136,
+  "covered": 133968,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 134208,
+    "score": 0.989,
+    "worst": 0.974,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD27_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 241344,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393984,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD27_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ027ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_001_main": {
+  "samples": 321560,
+  "covered": 321560,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 321984,
+    "score": 0.98,
+    "worst": 0.965,
+    "probe": 0.979,
+    "ties": []
+   }
+  ]
+ },
+ "BD30_002_main": {
+  "samples": 135972,
+  "covered": 135972,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 136512,
+    "score": 0.975,
+    "worst": 0.972,
+    "probe": 0.973,
+    "ties": [
+     "SQ042ST002SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_003_main": {
+  "samples": 45936,
+  "covered": 0,
+  "source": "3do",
+  "missing": [
+   1.0,
+   1.25
+  ],
+  "chain": [
+   {
+    "track": "SQ030ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 169344,
+    "score": 0.497,
+    "worst": 0.023,
+    "probe": 0.438,
+    "ties": [],
+    "bad": true
+   }
+  ]
+ },
+ "BD30_006_main": {
+  "samples": 45936,
+  "covered": 0,
+  "source": "3do",
+  "missing": [
+   1.0,
+   1.25,
+   1.5
+  ],
+  "chain": [
+   {
+    "track": "SQ030ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 178560,
+    "score": 0.496,
+    "worst": 0.019,
+    "probe": 0.497,
+    "ties": [
+     "SQ042ST006SG001",
+     "SQ042ST002SG001",
+     "SQ030ST002SG001"
+    ],
+    "bad": true
+   }
+  ]
+ },
+ "BD30_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 235584,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 237312,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 389952,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD30_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ030ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_002_main": {
+  "samples": 45936,
+  "covered": 45936,
+  "source": "3do",
+  "missing": [
+   0.5
+  ],
+  "chain": [
+   {
+    "track": "SQ031ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 136512,
+    "score": 0.579,
+    "worst": 0.447,
+    "probe": 0.592,
+    "ties": [
+     "SQ041ST006SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_003_main": {
+  "samples": 45936,
+  "covered": 0,
+  "source": "3do",
+  "missing": [
+   0.5,
+   0.75
+  ],
+  "chain": [
+   {
+    "track": "SQ031ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 136512,
+    "score": 0.487,
+    "worst": 0.296,
+    "probe": 0.48,
+    "ties": [
+     "SQ041ST006SG001"
+    ],
+    "bad": true
+   }
+  ]
+ },
+ "BD31_005_main": {
+  "samples": 338100,
+  "covered": 337872,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 338112,
+    "score": 0.988,
+    "worst": 0.974,
+    "probe": 0.982,
+    "ties": [
+     "SQ041ST005SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_006_main": {
+  "samples": 135972,
+  "covered": 135972,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 136512,
+    "score": 0.987,
+    "worst": 0.984,
+    "probe": 0.985,
+    "ties": [
+     "SQ041ST006SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 241344,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393984,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD31_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ031ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD32_001_main": {
+  "samples": 202124,
+  "covered": 202124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ032ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 169344,
+    "score": 0.985,
+    "worst": 0.97,
+    "probe": 0.983,
+    "ties": []
+   },
+   {
+    "track": "SQ032ST001SG002",
+    "at": 169104,
+    "lag": 0,
+    "length": 196992,
+    "score": 0.974,
+    "worst": 0.974,
+    "probe": 0.881,
+    "ties": []
+   }
+  ]
+ },
+ "BD32_003_main": {
+  "samples": 176400,
+  "covered": 176400,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ032ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 143424,
+    "score": 0.986,
+    "worst": 0.963,
+    "probe": 0.979,
+    "ties": []
+   },
+   {
+    "track": "SQ032ST003SG002",
+    "at": 143184,
+    "lag": 0,
+    "length": 196992,
+    "score": 0.959,
+    "worst": 0.945,
+    "probe": 0.97,
+    "ties": []
+   }
+  ]
+ },
+ "BD33_001_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ033ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 161856,
+    "score": 0.986,
+    "worst": 0.965,
+    "probe": 0.975,
+    "ties": []
+   },
+   {
+    "track": "SQ033ST001SG002",
+    "at": 161616,
+    "lag": 0,
+    "length": 201024,
+    "score": 0.966,
+    "worst": 0.965,
+    "probe": 0.967,
+    "ties": []
+   }
+  ]
+ },
+ "BD33_003_main": {
+  "samples": 183748,
+  "covered": 183748,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ033ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 150912,
+    "score": 0.987,
+    "worst": 0.967,
+    "probe": 0.983,
+    "ties": []
+   },
+   {
+    "track": "SQ033ST003SG002",
+    "at": 150672,
+    "lag": 0,
+    "length": 201024,
+    "score": 0.968,
+    "worst": 0.96,
+    "probe": 0.97,
+    "ties": []
+   }
+  ]
+ },
+ "BD34_001_500": {
+  "samples": 119436,
+  "covered": 119436,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 119808,
+    "score": 0.974,
+    "worst": 0.946,
+    "probe": 0.962,
+    "ties": [
+     "SQ043ST001SG003",
+     "SQ042ST006SG002",
+     "SQ041ST002SG002",
+     "SQ031ST002SG002",
+     "SQ030ST006SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_001_main": {
+  "samples": 466724,
+  "covered": 466724,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 402624,
+    "score": 0.965,
+    "worst": 0.919,
+    "probe": 0.984,
+    "ties": [
+     "SQ043ST001SG001"
+    ]
+   },
+   {
+    "track": "SQ034ST001SG002",
+    "at": 402384,
+    "lag": 0,
+    "length": 230400,
+    "score": 0.975,
+    "worst": 0.97,
+    "probe": 0.975,
+    "ties": [
+     "SQ043ST101SG002",
+     "SQ034ST101SG002",
+     "SQ043ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_002_main": {
+  "samples": 115760,
+  "covered": 115536,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 115776,
+    "score": 0.971,
+    "worst": 0.952,
+    "probe": 0.974,
+    "ties": [
+     "SQ043ST002SG001"
+    ]
+   }
+  ]
+ },
+ "BD34_003_510": {
+  "samples": 55124,
+  "covered": 55124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST003SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 221184,
+    "score": 0.984,
+    "worst": 0.978,
+    "probe": 0.985,
+    "ties": [
+     "SQ043ST003SG003"
+    ]
+   }
+  ]
+ },
+ "BD34_003_520": {
+  "samples": 275624,
+  "covered": 275624,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST003SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 441792,
+    "score": 0.983,
+    "worst": 0.956,
+    "probe": 0.972,
+    "ties": [
+     "SQ043ST003SG004"
+    ]
+   }
+  ]
+ },
+ "BD34_003_main": {
+  "samples": 576972,
+  "covered": 576972,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 314496,
+    "score": 0.98,
+    "worst": 0.945,
+    "probe": 0.967,
+    "ties": [
+     "SQ043ST003SG001"
+    ]
+   },
+   {
+    "track": "SQ034ST003SG002",
+    "at": 314256,
+    "lag": 0,
+    "length": 429120,
+    "score": 0.978,
+    "worst": 0.944,
+    "probe": 0.974,
+    "ties": [
+     "SQ043ST003SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_015_530": {
+  "samples": 44100,
+  "covered": 44100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST015SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 210240,
+    "score": 0.947,
+    "worst": 0.925,
+    "probe": 0.954,
+    "ties": [
+     "SQ043ST015SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_015_main": {
+  "samples": 145160,
+  "covered": 145160,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST015SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 145728,
+    "score": 0.971,
+    "worst": 0.948,
+    "probe": 0.966,
+    "ties": [
+     "SQ043ST015SG001"
+    ]
+   }
+  ]
+ },
+ "BD34_017_main": {
+  "samples": 409760,
+  "covered": 409760,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST017SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 167616,
+    "score": 0.974,
+    "worst": 0.969,
+    "probe": 0.975,
+    "ties": [
+     "SQ043ST017SG001"
+    ]
+   },
+   {
+    "track": "SQ034ST017SG002",
+    "at": 167376,
+    "lag": 0,
+    "length": 408960,
+    "score": 0.987,
+    "worst": 0.965,
+    "probe": 0.97,
+    "ties": [
+     "SQ043ST017SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_018_main": {
+  "samples": 349124,
+  "covered": 349124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST018SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 107136,
+    "score": 0.974,
+    "worst": 0.969,
+    "probe": 0.973,
+    "ties": [
+     "SQ043ST018SG001"
+    ]
+   },
+   {
+    "track": "SQ034ST018SG002",
+    "at": 106896,
+    "lag": 0,
+    "length": 408960,
+    "score": 0.987,
+    "worst": 0.961,
+    "probe": 0.966,
+    "ties": [
+     "SQ043ST018SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_033_540": {
+  "samples": 213148,
+  "covered": 213148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST033SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 379584,
+    "score": 0.986,
+    "worst": 0.972,
+    "probe": 0.975,
+    "ties": [
+     "SQ034ST034SG002",
+     "SQ034ST033SG002",
+     "SQ043ST034SG002",
+     "SQ043ST033SG003",
+     "SQ043ST033SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_033_560": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST033SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 243072,
+    "score": 0.983,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ043ST033SG005",
+     "SQ043ST033SG004",
+     "SQ034ST033SG004",
+     "SQ005ST005SG003",
+     "SQ005ST005SG002",
+     "SQ005ST002SG003",
+     "SQ005ST002SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_033_570": {
+  "samples": 99224,
+  "covered": 99224,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST033SG006",
+    "at": 0,
+    "lag": 240,
+    "length": 99648,
+    "score": 0.994,
+    "worst": 0.993,
+    "probe": 0.994,
+    "ties": [
+     "SQ043ST033SG006"
+    ]
+   }
+  ]
+ },
+ "BD34_033_580": {
+  "samples": 213148,
+  "covered": 213148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST033SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 379584,
+    "score": 0.986,
+    "worst": 0.972,
+    "probe": 0.975,
+    "ties": [
+     "SQ034ST034SG002",
+     "SQ034ST033SG002",
+     "SQ043ST034SG002",
+     "SQ043ST033SG003",
+     "SQ043ST033SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_033_600": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST033SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 243072,
+    "score": 0.983,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ043ST033SG005",
+     "SQ043ST033SG004",
+     "SQ034ST033SG004",
+     "SQ005ST005SG003",
+     "SQ005ST005SG002",
+     "SQ005ST002SG003",
+     "SQ005ST002SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_033_main": {
+  "samples": 402412,
+  "covered": 402384,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST033SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 402624,
+    "score": 0.973,
+    "worst": 0.954,
+    "probe": 0.971,
+    "ties": [
+     "SQ043ST033SG001"
+    ]
+   }
+  ]
+ },
+ "BD34_034_550": {
+  "samples": 213148,
+  "covered": 213148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST034SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 379584,
+    "score": 0.986,
+    "worst": 0.972,
+    "probe": 0.975,
+    "ties": [
+     "SQ034ST033SG003",
+     "SQ034ST033SG002",
+     "SQ043ST034SG002",
+     "SQ043ST033SG003",
+     "SQ043ST033SG002"
+    ]
+   }
+  ]
+ },
+ "BD34_034_main": {
+  "samples": 205800,
+  "covered": 205800,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST034SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.976,
+    "worst": 0.944,
+    "probe": 0.976,
+    "ties": [
+     "SQ043ST034SG001"
+    ]
+   }
+  ]
+ },
+ "BD34_900_main": {
+  "samples": 165372,
+  "covered": 165372,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ034ST900SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 165888,
+    "score": 0.981,
+    "worst": 0.941,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST930SG001",
+     "SQ030ST930SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_001_main": {
+  "samples": 106572,
+  "covered": 106572,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 107136,
+    "score": 0.984,
+    "worst": 0.976,
+    "probe": 0.98,
+    "ties": []
+   }
+  ]
+ },
+ "BD36_004_710": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST004SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.972,
+    "worst": 0.959,
+    "probe": 0.981,
+    "ties": [
+     "SQ036ST005SG004",
+     "SQ036ST005SG003",
+     "SQ036ST005SG002",
+     "SQ036ST004SG002"
+    ]
+   }
+  ]
+ },
+ "BD36_004_730": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST004SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.972,
+    "worst": 0.959,
+    "probe": 0.981,
+    "ties": [
+     "SQ036ST005SG004",
+     "SQ036ST005SG003",
+     "SQ036ST005SG002",
+     "SQ036ST004SG002"
+    ]
+   }
+  ]
+ },
+ "BD36_004_main": {
+  "samples": 321560,
+  "covered": 321560,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST004SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 321984,
+    "score": 0.979,
+    "worst": 0.97,
+    "probe": 0.978,
+    "ties": []
+   }
+  ]
+ },
+ "BD36_005_700": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST005SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.972,
+    "worst": 0.959,
+    "probe": 0.981,
+    "ties": [
+     "SQ036ST005SG003",
+     "SQ036ST005SG002",
+     "SQ036ST004SG003",
+     "SQ036ST004SG002"
+    ]
+   }
+  ]
+ },
+ "BD36_005_710": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST005SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.972,
+    "worst": 0.959,
+    "probe": 0.981,
+    "ties": [
+     "SQ036ST005SG003",
+     "SQ036ST005SG002",
+     "SQ036ST004SG003",
+     "SQ036ST004SG002"
+    ]
+   }
+  ]
+ },
+ "BD36_005_720": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST005SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.972,
+    "worst": 0.959,
+    "probe": 0.981,
+    "ties": [
+     "SQ036ST005SG003",
+     "SQ036ST005SG002",
+     "SQ036ST004SG003",
+     "SQ036ST004SG002"
+    ]
+   }
+  ]
+ },
+ "BD36_005_main": {
+  "samples": 334424,
+  "covered": 334416,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 334656,
+    "score": 0.984,
+    "worst": 0.965,
+    "probe": 0.97,
+    "ties": []
+   }
+  ]
+ },
+ "BD36_011_main": {
+  "samples": 134136,
+  "covered": 133968,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST011SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 134208,
+    "score": 0.982,
+    "worst": 0.98,
+    "probe": 0.985,
+    "ties": []
+   }
+  ]
+ },
+ "BD36_012_main": {
+  "samples": 180072,
+  "covered": 180048,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST012SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 180288,
+    "score": 0.978,
+    "worst": 0.966,
+    "probe": 0.975,
+    "ties": [
+     "SQ036ST013SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_013_main": {
+  "samples": 167212,
+  "covered": 167212,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST013SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 167616,
+    "score": 0.979,
+    "worst": 0.966,
+    "probe": 0.975,
+    "ties": [
+     "SQ036ST012SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ041ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ041ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ041ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ041ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ041ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ041ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 241344,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ041ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 226368,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ041ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD36_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ036ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ041ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_002_main": {
+  "samples": 45936,
+  "covered": 45936,
+  "source": "3do",
+  "missing": [
+   0.5
+  ],
+  "chain": [
+   {
+    "track": "SQ041ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 136512,
+    "score": 0.579,
+    "worst": 0.447,
+    "probe": 0.592,
+    "ties": [
+     "SQ031ST006SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_003_main": {
+  "samples": 115760,
+  "covered": 115536,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 115776,
+    "score": 0.975,
+    "worst": 0.969,
+    "probe": 0.989,
+    "ties": []
+   }
+  ]
+ },
+ "BD41_005_main": {
+  "samples": 338100,
+  "covered": 337872,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST005SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 338112,
+    "score": 0.988,
+    "worst": 0.974,
+    "probe": 0.982,
+    "ties": [
+     "SQ031ST005SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_006_main": {
+  "samples": 135972,
+  "covered": 135972,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 136512,
+    "score": 0.987,
+    "worst": 0.984,
+    "probe": 0.985,
+    "ties": [
+     "SQ031ST006SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ042ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 239616,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ042ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ042ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ042ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ042ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ042ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 241344,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ042ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 393984,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ042ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD41_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ041ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ042ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_001_main": {
+  "samples": 321560,
+  "covered": 321560,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 321984,
+    "score": 0.983,
+    "worst": 0.969,
+    "probe": 0.981,
+    "ties": []
+   }
+  ]
+ },
+ "BD42_002_main": {
+  "samples": 135972,
+  "covered": 135972,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 136512,
+    "score": 0.975,
+    "worst": 0.972,
+    "probe": 0.973,
+    "ties": [
+     "SQ030ST002SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_003_main": {
+  "samples": 115760,
+  "covered": 115536,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 115776,
+    "score": 0.975,
+    "worst": 0.969,
+    "probe": 0.987,
+    "ties": []
+   }
+  ]
+ },
+ "BD42_006_main": {
+  "samples": 45936,
+  "covered": 0,
+  "source": "3do",
+  "missing": [
+   1.0,
+   1.25,
+   1.5
+  ],
+  "chain": [
+   {
+    "track": "SQ042ST006SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 178560,
+    "score": 0.496,
+    "worst": 0.019,
+    "probe": 0.497,
+    "ties": [
+     "SQ030ST006SG001",
+     "SQ042ST002SG001",
+     "SQ030ST002SG001"
+    ],
+    "bad": true
+   }
+  ]
+ },
+ "BD42_500_main": {
+  "samples": 198448,
+  "covered": 198448,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST500SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 198720,
+    "score": 0.975,
+    "worst": 0.94,
+    "probe": 0.974,
+    "ties": [
+     "SQ041ST500SG001",
+     "SQ036ST500SG001",
+     "SQ031ST500SG001",
+     "SQ030ST500SG001",
+     "SQ027ST500SG001",
+     "SQ026ST500SG001",
+     "SQ025ST500SG001",
+     "SQ022ST500SG001",
+     "SQ021ST500SG001",
+     "SQ020ST500SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_510_main": {
+  "samples": 71660,
+  "covered": 71660,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST510SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 235584,
+    "score": 0.978,
+    "worst": 0.97,
+    "probe": 0.976,
+    "ties": [
+     "SQ041ST510SG001",
+     "SQ036ST510SG001",
+     "SQ031ST510SG001",
+     "SQ030ST510SG001",
+     "SQ027ST510SG001",
+     "SQ026ST510SG001",
+     "SQ025ST510SG001",
+     "SQ022ST510SG001",
+     "SQ021ST510SG001",
+     "SQ020ST510SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_520_main": {
+  "samples": 112088,
+  "covered": 112080,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST520SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 112320,
+    "score": 0.967,
+    "worst": 0.96,
+    "probe": 0.978,
+    "ties": [
+     "SQ041ST520SG001",
+     "SQ036ST520SG001",
+     "SQ031ST520SG001",
+     "SQ030ST520SG001",
+     "SQ027ST520SG001",
+     "SQ026ST520SG001",
+     "SQ025ST520SG001",
+     "SQ022ST520SG001",
+     "SQ021ST520SG001",
+     "SQ020ST520SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_530_main": {
+  "samples": 84524,
+  "covered": 84432,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST530SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 84672,
+    "score": 0.968,
+    "worst": 0.951,
+    "probe": 0.979,
+    "ties": [
+     "SQ041ST530SG001",
+     "SQ036ST530SG001",
+     "SQ031ST530SG001",
+     "SQ030ST530SG001",
+     "SQ027ST530SG001",
+     "SQ026ST530SG001",
+     "SQ025ST530SG001",
+     "SQ022ST530SG001",
+     "SQ021ST530SG001",
+     "SQ020ST530SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_540_main": {
+  "samples": 93712,
+  "covered": 93648,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST540SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 93888,
+    "score": 0.981,
+    "worst": 0.968,
+    "probe": 0.975,
+    "ties": [
+     "SQ041ST540SG001",
+     "SQ036ST540SG001",
+     "SQ031ST540SG001",
+     "SQ030ST540SG001",
+     "SQ027ST540SG001",
+     "SQ026ST540SG001",
+     "SQ025ST540SG001",
+     "SQ022ST540SG001",
+     "SQ021ST540SG001",
+     "SQ020ST540SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_550_main": {
+  "samples": 132300,
+  "covered": 132240,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST550SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 132480,
+    "score": 0.976,
+    "worst": 0.946,
+    "probe": 0.97,
+    "ties": [
+     "SQ041ST550SG001",
+     "SQ036ST550SG001",
+     "SQ031ST550SG001",
+     "SQ030ST550SG001",
+     "SQ027ST550SG001",
+     "SQ026ST550SG001",
+     "SQ025ST550SG001",
+     "SQ022ST550SG001",
+     "SQ021ST550SG001",
+     "SQ020ST550SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_560_main": {
+  "samples": 73500,
+  "covered": 73500,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST560SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 237312,
+    "score": 0.962,
+    "worst": 0.955,
+    "probe": 0.965,
+    "ties": [
+     "SQ041ST560SG001",
+     "SQ036ST560SG001",
+     "SQ031ST560SG001",
+     "SQ030ST560SG001",
+     "SQ027ST560SG001",
+     "SQ026ST560SG001",
+     "SQ025ST560SG001",
+     "SQ022ST560SG001",
+     "SQ021ST560SG001",
+     "SQ020ST560SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_570_main": {
+  "samples": 226012,
+  "covered": 226012,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST570SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 389952,
+    "score": 0.983,
+    "worst": 0.968,
+    "probe": 0.984,
+    "ties": [
+     "SQ041ST570SG001",
+     "SQ036ST570SG001",
+     "SQ031ST570SG001",
+     "SQ030ST570SG001",
+     "SQ027ST570SG001",
+     "SQ026ST570SG001",
+     "SQ025ST570SG001",
+     "SQ022ST570SG001",
+     "SQ021ST570SG001",
+     "SQ020ST570SG001"
+    ]
+   }
+  ]
+ },
+ "BD42_580_main": {
+  "samples": 194772,
+  "covered": 194772,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ042ST580SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 195264,
+    "score": 0.975,
+    "worst": 0.955,
+    "probe": 0.983,
+    "ties": [
+     "SQ041ST580SG001",
+     "SQ036ST580SG001",
+     "SQ031ST580SG001",
+     "SQ030ST580SG001",
+     "SQ027ST580SG001",
+     "SQ026ST580SG001",
+     "SQ025ST580SG001",
+     "SQ022ST580SG001",
+     "SQ021ST580SG001",
+     "SQ020ST580SG001"
+    ]
+   }
+  ]
+ },
+ "BD43_001_500": {
+  "samples": 119436,
+  "covered": 119436,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST001SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 119808,
+    "score": 0.974,
+    "worst": 0.946,
+    "probe": 0.962,
+    "ties": [
+     "SQ042ST006SG002",
+     "SQ041ST002SG002",
+     "SQ034ST001SG003",
+     "SQ031ST002SG002",
+     "SQ030ST006SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_001_main": {
+  "samples": 466724,
+  "covered": 466724,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST001SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 402624,
+    "score": 0.965,
+    "worst": 0.919,
+    "probe": 0.984,
+    "ties": [
+     "SQ034ST001SG001"
+    ]
+   },
+   {
+    "track": "SQ043ST001SG002",
+    "at": 402384,
+    "lag": 0,
+    "length": 230400,
+    "score": 0.975,
+    "worst": 0.97,
+    "probe": 0.975,
+    "ties": [
+     "SQ043ST101SG002",
+     "SQ034ST101SG002",
+     "SQ034ST001SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_002_main": {
+  "samples": 115760,
+  "covered": 115536,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST002SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 115776,
+    "score": 0.971,
+    "worst": 0.952,
+    "probe": 0.974,
+    "ties": [
+     "SQ034ST002SG001"
+    ]
+   }
+  ]
+ },
+ "BD43_003_510": {
+  "samples": 55124,
+  "covered": 55124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST003SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 221184,
+    "score": 0.984,
+    "worst": 0.978,
+    "probe": 0.985,
+    "ties": [
+     "SQ034ST003SG003"
+    ]
+   }
+  ]
+ },
+ "BD43_003_520": {
+  "samples": 275624,
+  "covered": 275624,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST003SG004",
+    "at": 0,
+    "lag": 240,
+    "length": 441792,
+    "score": 0.983,
+    "worst": 0.956,
+    "probe": 0.972,
+    "ties": [
+     "SQ034ST003SG004"
+    ]
+   }
+  ]
+ },
+ "BD43_003_main": {
+  "samples": 576972,
+  "covered": 576972,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST003SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 314496,
+    "score": 0.98,
+    "worst": 0.945,
+    "probe": 0.967,
+    "ties": [
+     "SQ034ST003SG001"
+    ]
+   },
+   {
+    "track": "SQ043ST003SG002",
+    "at": 314256,
+    "lag": 0,
+    "length": 429120,
+    "score": 0.978,
+    "worst": 0.944,
+    "probe": 0.974,
+    "ties": [
+     "SQ034ST003SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_015_530": {
+  "samples": 44100,
+  "covered": 44100,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST015SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 210240,
+    "score": 0.947,
+    "worst": 0.925,
+    "probe": 0.954,
+    "ties": [
+     "SQ034ST015SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_015_main": {
+  "samples": 145160,
+  "covered": 145160,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST015SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 145728,
+    "score": 0.971,
+    "worst": 0.948,
+    "probe": 0.966,
+    "ties": [
+     "SQ034ST015SG001"
+    ]
+   }
+  ]
+ },
+ "BD43_017_main": {
+  "samples": 409760,
+  "covered": 409760,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST017SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 167616,
+    "score": 0.974,
+    "worst": 0.969,
+    "probe": 0.975,
+    "ties": [
+     "SQ034ST017SG001"
+    ]
+   },
+   {
+    "track": "SQ043ST017SG002",
+    "at": 167376,
+    "lag": 0,
+    "length": 408960,
+    "score": 0.987,
+    "worst": 0.965,
+    "probe": 0.97,
+    "ties": [
+     "SQ034ST017SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_018_main": {
+  "samples": 349124,
+  "covered": 349124,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST018SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 107136,
+    "score": 0.974,
+    "worst": 0.969,
+    "probe": 0.973,
+    "ties": [
+     "SQ034ST018SG001"
+    ]
+   },
+   {
+    "track": "SQ043ST018SG002",
+    "at": 106896,
+    "lag": 0,
+    "length": 408960,
+    "score": 0.987,
+    "worst": 0.961,
+    "probe": 0.966,
+    "ties": [
+     "SQ034ST018SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_033_540": {
+  "samples": 213148,
+  "covered": 213148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST033SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 379584,
+    "score": 0.986,
+    "worst": 0.972,
+    "probe": 0.975,
+    "ties": [
+     "SQ034ST034SG002",
+     "SQ034ST033SG003",
+     "SQ034ST033SG002",
+     "SQ043ST034SG002",
+     "SQ043ST033SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_033_560": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST033SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 243072,
+    "score": 0.983,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ043ST033SG004",
+     "SQ034ST033SG005",
+     "SQ034ST033SG004",
+     "SQ005ST005SG003",
+     "SQ005ST005SG002",
+     "SQ005ST002SG003",
+     "SQ005ST002SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_033_570": {
+  "samples": 99224,
+  "covered": 99224,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST033SG006",
+    "at": 0,
+    "lag": 240,
+    "length": 99648,
+    "score": 0.994,
+    "worst": 0.993,
+    "probe": 0.994,
+    "ties": [
+     "SQ034ST033SG006"
+    ]
+   }
+  ]
+ },
+ "BD43_033_580": {
+  "samples": 213148,
+  "covered": 213148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST033SG003",
+    "at": 0,
+    "lag": 240,
+    "length": 379584,
+    "score": 0.986,
+    "worst": 0.972,
+    "probe": 0.975,
+    "ties": [
+     "SQ034ST034SG002",
+     "SQ034ST033SG003",
+     "SQ034ST033SG002",
+     "SQ043ST034SG002",
+     "SQ043ST033SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_033_600": {
+  "samples": 77172,
+  "covered": 77172,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST033SG005",
+    "at": 0,
+    "lag": 240,
+    "length": 243072,
+    "score": 0.983,
+    "worst": 0.967,
+    "probe": 0.977,
+    "ties": [
+     "SQ043ST033SG004",
+     "SQ034ST033SG005",
+     "SQ034ST033SG004",
+     "SQ005ST005SG003",
+     "SQ005ST005SG002",
+     "SQ005ST002SG003",
+     "SQ005ST002SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_033_main": {
+  "samples": 402412,
+  "covered": 402384,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST033SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 402624,
+    "score": 0.973,
+    "worst": 0.954,
+    "probe": 0.971,
+    "ties": [
+     "SQ034ST033SG001"
+    ]
+   }
+  ]
+ },
+ "BD43_034_550": {
+  "samples": 213148,
+  "covered": 213148,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST034SG002",
+    "at": 0,
+    "lag": 240,
+    "length": 379584,
+    "score": 0.986,
+    "worst": 0.972,
+    "probe": 0.975,
+    "ties": [
+     "SQ034ST034SG002",
+     "SQ034ST033SG003",
+     "SQ034ST033SG002",
+     "SQ043ST033SG003",
+     "SQ043ST033SG002"
+    ]
+   }
+  ]
+ },
+ "BD43_034_main": {
+  "samples": 205800,
+  "covered": 205800,
+  "source": "cdi",
+  "missing": [],
+  "chain": [
+   {
+    "track": "SQ043ST034SG001",
+    "at": 0,
+    "lag": 240,
+    "length": 206208,
+    "score": 0.976,
+    "worst": 0.944,
+    "probe": 0.976,
+    "ties": [
+     "SQ034ST034SG001"
+    ]
+   }
+  ]
+ },
+ "BD51_001_main": {
+  "samples": 1003272,
+  "covered": 0,
+  "source": "3do",
+  "missing": [
+   0.0,
+   0.25,
+   0.5,
+   0.75,
+   1.0,
+   1.25,
+   1.5,
+   2.25,
+   2.5,
+   2.75,
+   3.0,
+   3.25,
+   3.5,
+   3.75,
+   4.0,
+   4.25,
+   4.5,
+   4.75,
+   5.0,
+   5.25
+  ],
+  "chain": [
+   {
+    "track": "SQ004ST014SG001",
+    "at": 0,
+    "lag": 788,
+    "length": 184320,
+    "score": -0.002,
+    "worst": -0.016,
+    "probe": 0.066,
+    "ties": [
+     "SQ026ST005SG001",
+     "SQ004ST001SG001",
+     "SQ003ST004SG001"
+    ],
+    "bad": true
+   }
+  ]
+ },
+ "BD53_001_main": {
+  "samples": 1034512,
+  "covered": 0,
+  "source": "3do",
+  "missing": [
+   0.0,
+   0.25,
+   0.5,
+   0.75,
+   1.0,
+   1.25,
+   1.5,
+   2.25,
+   2.5,
+   2.75,
+   3.0,
+   3.25,
+   3.5,
+   3.75,
+   4.0,
+   4.25,
+   4.5,
+   4.75,
+   5.0,
+   5.25
+  ],
+  "chain": [
+   {
+    "track": "SQ002ST135SG001",
+    "at": 0,
+    "lag": 103292,
+    "length": 393408,
+    "score": -0.004,
+    "worst": -0.102,
+    "probe": 0.19,
+    "ties": [],
+    "bad": true
+   }
+  ]
+ },
+ "BD96_001_main": {
+  "samples": 1036348,
+  "covered": 0,
+  "source": "3do",
+  "missing": [
+   3.0,
+   3.25,
+   3.5,
+   3.75,
+   4.0,
+   4.5,
+   5.5,
+   5.75,
+   6.0,
+   6.25,
+   7.0,
+   7.25,
+   7.5,
+   7.75,
+   8.0,
+   8.25,
+   8.5,
+   8.75,
+   9.0,
+   9.25
+  ],
+  "chain": [
+   {
+    "track": "SQ004ST006SG001",
+    "at": 0,
+    "lag": 578252,
+    "length": 896832,
+    "score": -0.003,
+    "worst": -0.036,
+    "probe": 0.244,
+    "ties": [],
+    "bad": true
+   }
+  ]
+ }
+}
