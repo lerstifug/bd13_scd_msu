@@ -1,6 +1,6 @@
 ; APP.BIN - sub 68000 program of the Brain Dead 13 Sega CD player (two-layer frames, shadow cells, scrolling scenes,
 ; game logic; stream format version 5, see encode_v3.py and encode_set.py).
-; The loader (Chilly Willy cdboot) reads this from the disc root into sub PRG RAM at $8000 and calls it with
+; The loader (boot.s, the SP) reads this from the disc root into sub PRG RAM at $8000 and calls it with
 ; a6 = the loader global variables (vector table: +0 vblank handler, +12 ReadCD, +36 LoadFile).
 ;
 ; The disc holds one stream file per unit (the main path of a clip, or one of its death scenes) and the logic table

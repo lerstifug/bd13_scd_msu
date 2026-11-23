@@ -2,11 +2,11 @@
 
   python build_disc.py <set.json | stream.bin> [name] [START=unit] [SCRIPT=...] [NAME=value ...]
                                                               -> disc/<name>.iso, .bin, .cue
-  (see main().  The v2 sources for poc1-poc3 are kept in src/v2.)
+  (see main().)
 
 Pieces:
-  * boot area (sectors 0-15): Chilly Willy's cdboot US_BOOT.BIN (volume header, region security code, main-CPU
-    startup stub, sub-CPU loader), with this game's names and date in its header text (boot_area).
+  * boot area (sectors 0-15): src/boot.s (volume and disc headers, main-CPU start-up, sub-CPU loader that starts
+    APP.BIN), laid out as megadev's lib/cd_boot.s, with the US security code from megadev's lib/security.c.
   * ISO 9660 filesystem from sector 16: APP.BIN (with the test input SCRIPT.BIN built in), MAIN.BIN, STREAMS.DAT
     (every unit's stream, each starting on a sector), BEEPS.BIN and LOGIC.BIN (the game logic with each stream's
     sectors, loaded at boot), TITLE.BIN (the start screen) and CHEATS.BIN (the cheat menu: its 27 maps as press
@@ -22,10 +22,9 @@ def _tool(*cands):
     return next((p for p in cands if os.path.exists(p)), cands[0])
 
 
-# vasm (http://sun.hasenbraten.de/vasm/, the Motorola syntax m68k build) and Chilly Willy's cdboot (its US_BOOT.BIN)
+# vasm (http://sun.hasenbraten.de/vasm/, the Motorola syntax m68k build) and megadev (its security code)
 VASM = _tool(os.path.join(TOOLS, 'vasm', 'vasmm68k_mot.exe'), os.path.join(TOOLS, 'vasm', 'vasmm68k_mot'))
-BOOT = _tool(os.path.join(TOOLS, 'cdboot', 'US_BOOT.BIN'),
-             os.path.join(TOOLS, 'docs', '_x', 'cdboot', 'cdboot', 'US_BOOT.BIN'))
+SECURITY = os.path.join(TOOLS, 'megadev', 'lib', 'security.c')
 OUT = os.path.join(HERE, 'disc')
 BUILD = os.path.join(HERE, 'build')
 SS = 2048
@@ -62,28 +61,28 @@ def dir_record(extent, size, flags, name):
     return bytes(rec)
 
 
-VOLUME = b'BRAINDEAD13'                   # the ISO volume ID and the boot header's volume name
-TITLE = b'BRAINDEAD 13'
-DATE = (2026, 11, 18)                     # the header dates (cdboot has its own, 03/24/2013)
+VOLUME = b'BRAINDEAD13'                   # the ISO volume ID (src/boot.s has the boot header text)
+
+
+def security_code(region='US'):
+    """The region security code, which the BIOS checks byte for byte at the start of the IP: the byte array for
+    REGION == US in lib/security.c of a megadev checkout (tools/megadev, github.com/drojaazu/megadev)."""
+    import re
+    if not os.path.exists(SECURITY):
+        sys.exit(f'{SECURITY} not found: clone github.com/drojaazu/megadev into tools/megadev (see README.md)')
+    m = re.search(r'#if REGION == ' + region + r'\b.*?\{(.*?)\};', open(SECURITY).read(), re.S)
+    code = bytes(int(x, 16) for x in re.findall(r'0x([0-9A-Fa-f]{2})', m.group(1)))
+    assert len(code) == 0x584 and code[:2] == b'\x43\xFA', 'unexpected US security code in ' + SECURITY
+    return code
 
 
 def boot_area():
-    """cdboot's US_BOOT.BIN with this game's names in its text fields: volume header (sector 0) volume and system
-    names, date MMDDYYYY; Mega Drive header (at $100) console, copyright, domestic and overseas titles.  Only text:
-    the region code and the loader code after $200 stay as they are."""
-    boot = bytearray(open(BOOT, 'rb').read())
-    assert len(boot) == 16 * SS and boot[:16] == b'SEGADISCSYSTEM  ', 'tools/cdboot/US_BOOT.BIN is not a cdboot boot area'
-    y, m, d = DATE
-    def put(off, n, text, fill=b' '):
-        boot[off:off + n] = text[:n].ljust(n, fill)
-    put(0x10, 11, VOLUME, b'\0'); boot[0x1B] = 0
-    put(0x20, 11, b'BD13 SYSTEM', b'\0'); boot[0x2B] = 0
-    put(0x50, 16, f'{m:02d}{d:02d}{y}'.encode())
-    put(0x100, 16, b'SEGA MEGA DRIVE')
-    put(0x110, 16, f'(C)     {y}.{"JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC"[3 * m - 3:3 * m]}'.encode())
-    put(0x120, 48, TITLE)
-    put(0x150, 48, TITLE)
-    return bytes(boot)
+    """src/boot.s, assembled: the volume and disc headers, the IP (security code + start-up) and the SP (loader)."""
+    open(os.path.join(BUILD, 'SECURITY.BIN'), 'wb').write(security_code())
+    assemble(os.path.join(HERE, 'src', 'boot.s'), os.path.join(BUILD, 'BOOT.BIN'))
+    boot = open(os.path.join(BUILD, 'BOOT.BIN'), 'rb').read()
+    assert len(boot) == 16 * SS and boot[:16] == b'SEGADISCSYSTEM  '
+    return boot
 
 
 def build_iso(files):

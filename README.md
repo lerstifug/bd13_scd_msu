@@ -53,8 +53,11 @@ scrolling backgrounds one after another would be too much data for either consol
 ## Requirements
 
 - Python 3.10 or newer with numpy and Pillow: `python -m pip install -r requirements.txt`
-- Sega CD: [vasm](http://sun.hasenbraten.de/vasm/) (`vasmm68k_mot`) in `tools/vasm/`, and `US_BOOT.BIN` from
-  Chilly Willy's Sega CD boot loader (cdboot, SpritesMind forum) in `tools/cdboot/`.
+- Sega CD: [vasm](http://sun.hasenbraten.de/vasm/) (`vasmm68k_mot`) in `tools/vasm/`, and a clone of
+  [megadev](https://github.com/drojaazu/megadev) in `tools/megadev/`
+  (`git clone https://github.com/drojaazu/megadev tools/megadev`).  The disc's boot code is our own
+  (`segacd/src/boot.s`, laid out as megadev's); only the region security code, which the console checks byte for
+  byte, is taken from megadev's `lib/security.c`.
 - SNES: [WLA-DX](https://github.com/vhelin/wla-dx) (`wla-65816`, `wla-spc700`, `wlalink`) in `tools/wla-dx/` or on
   the PATH; for the CD-i sound, [ffmpeg](https://ffmpeg.org/download.html) in `tools/ffmpeg/` or on the PATH.
 

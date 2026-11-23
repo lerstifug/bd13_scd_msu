@@ -1,0 +1,2 @@
+Sega CD: clone megadev here (only its lib/security.c is used: the region security code the console
+checks at boot):  git clone https://github.com/drojaazu/megadev tools/megadev

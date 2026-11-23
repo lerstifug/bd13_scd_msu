@@ -4,7 +4,7 @@
 
 Give both 3DO discs (their .cue or .bin files, or the folders that hold them); they are checked against Redump
 (discs.py).  Writes output/segacd/bd13.cue + bd13.bin: burn it, or load the .cue in an emulator or on a MiSTer
-(Mega CD core).  Needs tools/vasm and tools/cdboot (see README.md).
+(Mega CD core).  Needs tools/vasm and tools/megadev (see README.md).
 
 Steps (each is kept when done; run the same command again after a stop, --redo STEP to do one again):
   export   bd13/3do/export_3do.py ALL         the 3DO data as PNG / JSON / WAV        about 5 minutes
@@ -28,7 +28,7 @@ def main():
     steps.check_python()
     sys.path.insert(0, steps.SCD)
     import build_disc as B
-    for path, what in ((B.VASM, 'vasm (tools/vasm)'), (B.BOOT, "cdboot's US_BOOT.BIN (tools/cdboot)")):
+    for path, what in ((B.VASM, 'vasm (tools/vasm)'), (B.SECURITY, 'megadev (tools/megadev)')):
         if not os.path.exists(path):
             sys.exit(f'{what} not found at {os.path.normpath(path)}: see README.md')
     print('disc images:')
